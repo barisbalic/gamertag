@@ -1,0 +1,22 @@
+# xbl-gamertag
+## Xbox Live gamertag info
+
+An interface for accessing your xbox live profile and game data.
+
+## Usage
+This gem fetches data from two independent sources, which has several implications such as one of the sources not being available, or an increased overhead when you only want to access some of the data.  To this end the interface will allow you to access all data, just the profile data or just the played games data.
+
+
+Example: Obtaining your profile and played games
+
+  profile = Gamertag::Profile.fetch('Belial1984')
+
+
+Example: Obtaining your profile and recent games only
+
+  simple_profile = GamerTag::SimpleProfile.fetch('Belial1984')
+
+
+Example: Obtaining your played games only
+
+  played_games = Gamertag::PlayedGames.fetch('Belial1984')

@@ -3,11 +3,14 @@
 
 An interface for accessing your xbox live profile and game data.
 
+## Install 
+    Will add when finished.
+
 ## Usage
 This gem fetches data from two independent sources, which has several implications such as one of the sources not being available, or an increased overhead when you only want to access some of the data.  To this end the interface will allow you to access all data, just the profile data or just the played games data.
 
 
-  Example: Obtaining your profile and played games.  Methods are those available to Simple profile and played games.
+  Example: Obtaining your profile and played games.  Methods are those available to the simple profile and played games.
 
     profile = Gamertag::Profile.new('Belial1984')
     
@@ -59,3 +62,18 @@ This gem fetches data from two independent sources, which has several implicatio
       game.average_gamerscore
       game.relative_gamerscore
     end
+    
+    
+## Note on Patches/Pull Requests
+
+ * Fork the project.
+ * Make your feature addition or bug fix.
+ * Add tests for it. This is important so I don't break it in a
+   future version unintentionally.
+ * Commit, do not mess with rakefile, version, or history.
+   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+ * Send me a pull request. Bonus points for topic branches.
+
+## Copyright
+
+Copyright (c) 2011 Baris Balic.

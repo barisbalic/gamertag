@@ -1,5 +1,4 @@
 # Gamertag
-## Xbox Live gamertag info
 
 An interface for accessing your xbox live profile and game data.
 

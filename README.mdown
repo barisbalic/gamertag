@@ -13,11 +13,14 @@ This gem fetches data from two independent sources, which has several implicatio
   Example: Obtaining your profile and played games.  Methods are those available to the simple profile and played games.
 
     profile = Gamertag::Profile.new('Belial1984')
+    profile.gamertag
+    profile.recent_games {|game| game.title }
+    profile.played_games {|game| game.title }
     
     
   Example: Obtaining your profile and recent games only
 
-    simple_profile = Gamertag::SimpleProfile.new('Belial1984')
+    profile = Gamertag::SimpleProfile.new('Belial1984')
 
     profile.gamertag
     profile.profile_link

@@ -10,8 +10,7 @@ module Gamertag
 
     def recent_games
       @profile['recent_games'].map do |k, v|
-        g = v.merge({'last_played' => Time.at(v['last_played'].to_i)})
-        Hashie::Mash.new(g)
+        Hashie::Mash.new(v.merge({'last_played' => Time.at(v['last_played'].to_i)}))
       end
     end
     

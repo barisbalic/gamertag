@@ -7,8 +7,8 @@ describe Gamertag::PlayedGames do
   
   it "should return played games" do
     played_games = Gamertag::PlayedGames.new('Belial1984')
-    played_games.first.title.should eql("SUPER STREETFIGHTER IV")
-    played_games.count.should == 84
+    played_games.first.title.should eql("The Orange Box")
+    played_games.count.should == 85
     played_games.each {|game| game.title.nil?.should be_false}
   end
 end

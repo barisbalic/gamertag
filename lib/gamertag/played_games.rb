@@ -26,8 +26,12 @@ module Gamertag
         naming = cells[1].css("p")
         gamerscore = cells[2].css("div[class='percentage-container']").first.text.strip!.split('/')
         achievements = (cells[2].css("div[class='percentage-container']").last.text).strip!.split('/')
+        
         average_gamerscore = cells[3].css('span').text.strip!
-        relative_gamerscore = (cells[3].css('span').attribute('title').text.include?('above average') ? :above_average : :below_average)
+        relative_gamerscore = :undefined
+        unless cells[3].css('span')
+          relative_gamerscore = (cells[3].css('span').attribute('title').text.include?('above average') ? :above_average : :below_average)
+        end
 
         Hashie::Mash.new({'image' => cells[0].css('img').attribute('src').text,
           'title' => naming.first.text,

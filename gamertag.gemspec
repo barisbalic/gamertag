@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "gamertag"
   s.version     = Gamertag::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Baris Balic"]
-  s.email       = ["baris@webloch.co.uk"]
+  s.authors     = ["Baris Balic", "David Czarnecki"]
+  s.email       = ["baris@webloch.co.uk", "dczarnecki@agoragames.com"]
   s.homepage    = ""
-  s.summary     = %q{A gem for retrieving your xbox live gamertag info}
-  s.description = %q{A gem for retrieving your xbox live gamertag info}
+  s.summary     = %q{A gem for retrieving your XBOX Live gamertag information}
+  s.description = %q{A gem for retrieving your XBOX Live gamertag information}
 
   s.rubyforge_project = "gamertag"
 
@@ -18,4 +18,11 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  
+  s.add_dependency('json', '~> 1.5.3')
+  s.add_dependency('hashie', '~> 1.1.0')
+  s.add_dependency('nokogiri', '~> 1.5.0')
+
+  s.add_development_dependency('rake')
+  s.add_development_dependency('rspec', '~> 2.6.0')
 end

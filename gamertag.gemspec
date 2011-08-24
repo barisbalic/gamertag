@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Baris Balic", "David Czarnecki"]
   s.email       = ["baris@webloch.co.uk", "dczarnecki@agoragames.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/barisbalic/gamertag"
   s.summary     = %q{A gem for retrieving your XBOX Live gamertag information}
   s.description = %q{A gem for retrieving your XBOX Live gamertag information}
 

@@ -85,4 +85,4 @@ This gem fetches data from two independent sources, which has several implicatio
 
 ## Copyright
 
-Copyright (c) 2011 Baris Balic.
+Copyright (c) 2011 Baris Balic, David Czarnecki.

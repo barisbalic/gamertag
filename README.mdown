@@ -1,9 +1,18 @@
 # Gamertag
 
-An interface for accessing your xbox live profile and game data.
+An interface for accessing your XBOX Live profile and game data.
 
 ## Install 
-    gem install gamertag.
+
+```ruby
+gem install gamertag
+```
+
+Gemfile:
+
+```ruby
+gem 'gamertag'
+```
 
 ## Usage
 This gem fetches data from two independent sources, which has several implications such as one of the sources not being available, or an increased overhead when you only want to access some of the data.  To this end the interface will allow you to access all data, just the profile data or just the played games data.

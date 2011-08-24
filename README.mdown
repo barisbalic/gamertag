@@ -71,7 +71,7 @@ This gem fetches data from two independent sources, which has several implicatio
       game.earned_achievements
       game.available_achievements
       game.average_gamerscore
-      game.relative_gamerscore  => :above_average || :below_average
+      game.relative_gamerscore  => :above_average || :below_average || :undefined
     end
     
     

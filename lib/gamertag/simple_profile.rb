@@ -19,8 +19,8 @@ module Gamertag
     end
 
     private
-    def fetch(gamertag)
-      uri = URI.parse("http://api.xboxleaders.com/newapi.php?gamertag=#{gamertag}&version=2.0&format=json")
+    def fetch(gamertag)      
+      uri = URI.parse("http://api.xboxleaders.com/v2/?gamertag=#{gamertag}&format=json")
       response = Net::HTTP.get_response(uri)
       hash = JSON.parse(response.body)
       hash['user']

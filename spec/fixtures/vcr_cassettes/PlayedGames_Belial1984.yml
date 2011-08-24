@@ -1,0 +1,2082 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.xboxleaders.com:80/v2/?gamertag=Belial1984&format=json
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Wed, 24 Aug 2011 16:38:21 GMT
+      server: 
+      - Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.13
+      x-powered-by: 
+      - PHP/5.2.13
+      expires: 
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      last-modified: 
+      - Wed, 24 Aug 2011 16:38:24GMT
+      cache-control: 
+      - no-cache, must-revalidate
+      pragma: 
+      - no-cache
+      content-length: 
+      - "3225"
+      content-type: 
+      - application/json
+    body: "{\"user\":{\"gamertag\":\"belial1984\",\"is_valid\":1,\"profile_link\":\"http:\\/\\/live.xbox.com\\/member\\/belial1984\",\"launch_team\":{\"xbl\":0,\"nxe\":0,\"kinect\":0},\"account_status\":\"Gold\",\"gender\":\"Male\",\"is_cheater\":0,\"online\":0,\"online_status\":\"Last seen 8\\/22\\/2011 playing Modern Warfare&#174; 2\",\"avatars\":{\"gamer_tile\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatarpic-l.png\",\"small_gamerpic\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatarpic-s.png\",\"large_gamerpic\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatarpic-l.png\",\"body_gamerpic\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatar-body.png\"},\"reputation\":100,\"gamerscore\":11910,\"location\":\"london\",\"motto\":\"\",\"name\":\"baris balic\",\"bio\":\"\",\"recent_games\":{\"1\":{\"title\":\"Modern Warfare&#174; 2\",\"tid\":1096157207,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1096157207\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1096157207&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/l6\\/Vi\\/0Gdsb2JhbA9ECgQJGgYfVl5UL2ljb24vMC84MDAwIAAAAAAAAP9NpYg=.jpg\",\"last_played\":\"1313967600\",\"earned_gamerscore\":930,\"available_gamerscore\":1000,\"earned_achievements\":43,\"available_achievements\":50,\"percentage_complete\":86},\"2\":{\"title\":\"Halo: Reach\",\"tid\":1297287259,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1297287259\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1297287259&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/ih\\/ew\\/0Wdsb2JhbA9ECgR8GgMfVlohL2ljb24vMC84MDAwIAAAAAAAAP6fF5U=.jpg\",\"last_played\":\"1299542400\",\"earned_gamerscore\":375,\"available_gamerscore\":1400,\"earned_achievements\":26,\"available_achievements\":59,\"percentage_complete\":44},\"3\":{\"title\":\"Portal 2\",\"tid\":1161890066,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1161890066\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1161890066&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/x2\\/5+\\/1mdsb2JhbA9ECgQNGwEfV15RL2ljb24vMC84MDAwIAAAAAAAAPlRbtg=.jpg\",\"last_played\":\"\",\"earned_gamerscore\":345,\"available_gamerscore\":1000,\"earned_achievements\":21,\"available_achievements\":50,\"percentage_complete\":42},\"4\":{\"title\":\"SUPER STREETFIGHTER IV\",\"tid\":1128466428,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1128466428\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1128466428&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/oX\\/8i\\/0Wdsb2JhbA9ECgQLGwMfWSkgL2ljb24vMC84MDAwIAAAAAAAAP4Nf74=.jpg\",\"last_played\":\"1309906800\",\"earned_gamerscore\":470,\"available_gamerscore\":1160,\"earned_achievements\":28,\"available_achievements\":58,\"percentage_complete\":48},\"5\":{\"title\":\"Child of Eden\",\"tid\":1431504972,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1431504972\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1431504972&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/z2\\/Jl\\/1mdsb2JhbA9ECgUNGgMfVlsgL2ljb24vMC84MDAwIAAAAAAAAPlKYtA=.jpg\",\"last_played\":\"\",\"earned_gamerscore\":0,\"available_gamerscore\":1000,\"earned_achievements\":0,\"available_achievements\":49,\"percentage_complete\":0}}}}"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.xboxgamertag.com:80/search/Belial1984/
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      set-cookie: 
+      - PHPSESSID=2326af0d94256b418c099cbdf1807553; path=/
+      expires: 
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control: 
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      pragma: 
+      - no-cache
+      vary: 
+      - Accept-Encoding
+      content-type: 
+      - text/html; charset=UTF-8
+      content-length: 
+      - "102939"
+      date: 
+      - Wed, 24 Aug 2011 16:38:25 GMT
+      x-varnish: 
+      - "659547934"
+      age: 
+      - "0"
+      connection: 
+      - keep-alive
+      server: 
+      - Xbox Gamertag
+    body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n\
+      <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"\n      xmlns:fb=\"https://www.facebook.com/2008/fbml\" lang=\"en\">\n\
+      <head>\n\
+      <title>belial1984 - Xbox Live Gamertag </title>\n\
+      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\
+      <meta name=\"description\" content=\"View the full xbox live profile of belial1984's. belial1984's gamerscore is 11,910. To search for any other Xbox Live user visit our homepage.\" />\n\
+      <meta name=\"keywords\" content=\"xbox, xbox gamertag, gamertag, gamertag search, xbox gamertag search, xbox live, gamercards, gamertag generator, gamercard generator\" />\n\
+      <meta name=\"robots\" content=\"index, follow\" />\n\
+      <meta name=\"google-site-verification\" content=\"DawowDmV2J68zDd4Ej0RdjF9C4mPykmq7smE1F2bgTw\" />\n\
+      <link rel=\"canonical\" href=\"http://www.xboxgamertag.com\" />\n\n    <meta property=\"og:title\" content=\"belial1984 - Xbox Gamertag - Xbox Gamertag\"/>\n    <meta property=\"og:type\" content=\"website\"/>\n    <meta property=\"og:url\" content=\"http://www.xboxgamertag.com/search/belial1984/\"/>\n    <meta property=\"og:image\" content=\"http://avatar.xboxlive.com/avatar/belial1984/avatarpic-l.png\"/>\n    <meta property=\"og:site_name\" content=\"XboxGamertag\"/>\n    <meta property=\"og:description\" content=\"belial1984 - Xbox Gamertag. Gamerscore: 11,910\"/>\n\n\
+      <!-- Stylesheets -->\n\
+      <link rel=\"stylesheet\" type=\"text/css\" href=\"/resources/css/main.css?1313399553\" />\n\
+      <link rel=\"stylesheet\" type=\"text/css\" href=\"/resources/css/content/gamertag.css?1313399553\" />\n\n\
+      <!-- Javascript -->\n\
+      <script type=\"text/javascript\" src=\"/resources/scripts/jquery-1.4.4.min.js?1313399553\"></script>\n\
+      \t<script type=\"text/javascript\" src=\"/resources/scripts/jquery-ui.min.js?1313399553\"></script>\n\
+      \t<link rel=\"stylesheet\" type=\"text/css\" href=\"/resources/scripts/jqueryui/xgt-theme/jquery-ui-1.8.6.custom.css?1313399553\" />\n\
+      \t<script type=\"text/javascript\" src=\"/resources/scripts/content/gamertag.js?1313399553\"></script>\n\n\n\
+      \t\n\n\n\
+      <!--[if lt IE 7]>\n\
+      <script type=\"text/javascript\" src=\"/resources/scripts/supersleight.plugin.js?1313399553\"></script>\n\
+      <script>\n\
+      $(document).ready(function()\n\
+      {\n\
+      \t$('img, div, input').supersleight();\n\
+      });\n\
+      </script>\n\
+      <![endif]-->\n\
+      <noscript>For full functionality of this page it is necessary to enable JavaScript. Here are the <a href=\"http://www.enable-javascript.com&quot; target=\"_blank\"> instructions how to enable JavaScript in your web browser</a></noscript>\n\n\
+      <!-- BuySellAds.com Ad Code -->\n\
+      <script type=\"text/javascript\">\n\
+      (function(){\n  var bsa = document.createElement('script');\n     bsa.type = 'text/javascript';\n     bsa.async = true;\n     bsa.src = '//s3.buysellads.com/ac/bsa.js';\n  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);\n\
+      })();\n\
+      </script>\n\
+      <!-- End BuySellAds.com Ad Code -->\n\n\n\
+      </head>\n\n\
+      <body>\n\
+      <div id=\"container\">\n\n\
+      \t\n\
+      \t<h1 id=\"MainTitle\"><a href=\"http://www.xboxgamertag.com/\">Xbox Gamertag</a></h1>\n\
+      \t\t\t\t\t\t\t\t\n\n\
+      <div class=\"topAd\">\n\n\
+      <script type=\"text/javascript\"><!--\n\
+      google_ad_client = \"ca-pub-5544850898506231\";\n\
+      /* top */\n\
+      google_ad_slot = \"7701256685\";\n\
+      google_ad_width = 468;\n\
+      google_ad_height = 60;\n\
+      //-->\n\
+      </script>\n\
+      <script type=\"text/javascript\"\n\
+      src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\n\
+      </script>\n\n\n\n\
+      <!-- BuySellAds.com Zone Code -->\n\
+      <!---<div id=\"bsap_1263149\" class=\"bsarocks bsap_98d6915731db38cdebc72e15b7b23b2b\"></div>-->\n\
+      <!-- End BuySellAds.com Zone Code -->\n\n\n\n\n\n\n\n\
+      </div>\t\n\
+      \t\n\
+      \t<div id=\"topLinks\">\n\
+      \t\t<ul>\n\
+      \t\t\t\t\t\t<li><a href=\"/register/\"><strong>Register</strong></a> | </li>\n\
+      \t\t\t<li><a href=\"/login/\">Login</a></li>\n\
+      \t\t\t\t\t\t\n\
+      \t\t</ul>\n\
+      \t</div>\n\
+      \t<div id=\"XGTHeader\">\n\
+      \t\t<ul id=\"Menu\">\n\
+      \t\t\t<li class=\"image\"><a href=\"/\"><img src=\"/resources/images/homeHouse.png\" alt=\"xboxgamertag\" /></a></li>\n\
+      \t\t\t<li class=\"left\"><a href=\"/gamercard/\">Gamercards</a></li>\n\
+      \t\t\t<li class=\"left\"><a href=\"/gamertag-generator/\">Gamertag Generator</a></li>\n\
+      \t\t\t<li class=\"left\"><a href=\"/achievements/\">Achievements</a></li>\n\
+      \t\t\t<li class=\"left\"><a href=\"/leaderboards/\">Leaderboards</a></li>\n\
+      \t\t\t\t\t\t<li class=\"left\"><a href=\"http://www.youtube.com/user/XboxGamertagCom\" target=\"_blank\"rel=\"nofollow\">- Youtube Channel -</a></li>\n\
+      \t\t\t<!---<li class=\"rightOption\"><a href=\"/forum/\">Forums</a></li>-->\n\
+      \t\t\t\n\
+      \t\t\t<li class=\"rightOption\"><a href=\"http://www.facebook.com/pages/Xbox-Gamertag/134742809876061\" rel=\"nofollow\" target=\"_blank\">Share Your Gamertag</a></li>\n\n\
+      \t\t</ul>\n\
+      \t\t\t</div>\n\
+      \t\n \t<!-----<div id=\"status-msg\"></div>--->\n\
+      \t\n\
+      \t<div id=\"XGTMain\">\n\n\
+      <div id=\"s-text\">\n\
+      <p>belial1984 is an Xbox Live Gold user.<p>\n\
+      <p>They have 11,910 gamerscore.</p>\n\
+      <p>Their motto is  and their bio is </p>\n\
+      \t<p>They play games such as: Modern Warfare\xC2\xAE 2,Halo: Reach,Portal 2,SUPER STREETFIGHTER IV,Child of Eden,Geometry Wars Evolved\xC2\xB2,Bulletstorm,LUMINES LIVE!,MEGA MAN 10,Call of Duty Black Ops,The Orange Box,Portal: Still Alive,Burnout Paradise,Super Meat Boy,Fallout: New Vegas,Braid,NFS Hot Pursuit,LIMBO,PAC-MAN CE DX,SuperStreetFighter2THD,BAYONETTA,Dead Space\xE2\x84\xA2,STREET FIGHTER IV,LOST PLANET 2,N+,SCOTT PILGRIM THE GAME,E4,Battlefield: Bad Co. 2,Mercenaries 2,Halo 3: ODST,Halo 3,NINJA GAIDEN 2,Crackdown,Left 4 Dead,Darksiders,RESIDENT EVIL 5,Fable II,Borderlands,Halo Waypoint,Call of Duty 4,[PROTOTYPE]\xE2\x84\xA2,Geometry Wars Evolved,Gears of War 2,Fallout 3,Guitar Hero III,Castle Crashers,GTA IV,Worms,Gears of War,Pac-Man C.E.,TC's RainbowSix Vegas,DEAD RISING,skate.,BioShock,LOST PLANET,Battlestations: Midway,Kane and Lynch:DeadMen,Enchanted Arms,Puzzle Fighter HD,Geon,Sonic The Hedgehog 2,Fatal Fury Special,Small Arms,Street Fighter II' HF,Paperboy,Bomberman LIVE,Perfect Dark Zero,Burnout Revenge,Condemned,Band of Bugs,Castlevania: SOTN,Eets: Chowdown,Hexic HD,Smash TV,Assault Heroes,Novadrome,Heavy Weapon,Catan,Boom Boom Rocket,Double Dragon,XEVIOUS,TMNT 1989 Arcade,Rush'n Attack,DEAD OR ALIVE 4,Viva Pi\xC3\xB1ata,Texas Hold'em,Outpost Kaloki X,PGR 3,</p>\n\
+      </div>\n\
+      <div id=\"topLeft\">\n\
+      \t<img src=\"http://avatar.xboxlive.com/avatar/belial1984/avatarpic-l.png\" alt=\"belial1984's Avatar\" title=\"belial1984's Avatar\" class=\"avatarTile\"/>\n\
+      \t<h2 class=\"tierGamertag gold\">belial1984</h2> <img src=\"/resources/images/flags/gb.png\" alt=\"From gb\"/> <p class=\"rightGS\"><img src=\"/resources/images/gamerscore_icon.png\" alt=\"11,910 Gamerscore\" title=\"11,910 Gamerscore\"> 11,910</p><p class=\"topc\">Last seen 8/22/2011 playing Modern Warfare\xC2\xAE 2</p>\n\
+      \t<p class=\"topc\"></p>\n\
+      </div>\n\
+      <div class=\"lowerPart\" style=\"margin-bottom:10px;\">\n\
+      <p>Online Status: <i>Offline</i> || Xbox Membership: Gold || Zone: Underground || Country: United Kingdom</p>\n\
+      </div>\n\
+      <div class=\"rightColGT\" style=\"margin-top:-10px;\">\n\
+      <div class=\"topRC\">\n\
+      \t<div>\n\
+      \t\t<p class=\"\">Total Games Played: 88</p>\n\
+      \t\t<p class=\"\">Games Completed: 2</p>\n\
+      \t\t<p class=\"\">Average Completion: 21%</p>\n\
+      \t</div>\n\n\
+      <div class=\"share-item-float\">\n\
+      <iframe src=\"http://www.facebook.com/plugins/like.php?app_id=166470226749675&amp;href=http%3A%2F%2Fwww.xboxgamertag.com%2Fsearch%2Fbelial1984%2F&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:80px; height:21px;\" allowTransparency=\"true\"></iframe>\n\
+      </div>\n\
+      <div class=\"share-item\">\n\
+      \t<a href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.xboxgamertag.com/search/belial1984/\"data-count=\"none\" data-via=\"xboxgamertagcom\">Tweet</a>\n\
+      \t<script type=\"text/javascript\" src=\"http://platform.twitter.com/widgets.js\"></script>\n\
+      </div>\n\n\
+      </div>\n\
+      <div class=\"avatarSection\">\n\
+      <p class=\"bio-right\"></p>\n\
+      \t\t<img src=\"http://avatar.xboxlive.com/avatar/belial1984/avatar-body.png\" alt=\"belial1984's Avatar\" title=\"belial1984's Avatar\" class=\"avatarBig\" />\n\
+      \t\t\t<p class=\"bio-right\"></p>\n\n\
+      \t\t<br />\t\n\n\
+      \t\n\
+      \t\n\
+      \t</div>\n\
+      \t</div>\n\
+      <!---<div style=\"margin:0px auto;padding:0px;padding-top:7px;padding-bottom:5px;\">-->\n\n\n\
+      <div class=\"adsensefloat\">\n\
+      <script type=\"text/javascript\"><!--\n\
+      google_ad_client = \"pub-5544850898506231\";\n\
+      /* 728x90, created 8/15/11 */\n\
+      google_ad_slot = \"8470868236\";\n\
+      google_ad_width = 728;\n\
+      google_ad_height = 90;\n\
+      //-->\n\
+      </script>\n\
+      <script type=\"text/javascript\"\n\
+      src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\n\
+      </script></div>\n\n\n\
+      \t\n\n\n\
+      <!--<div class=\"bysellgt\">\n\
+      <p>Advertisement - (<a href=\"http://buysellads.com/buy/detail/64568\" target=\"_blank\" rel=\"nofollow\">Advertise here?</a> - <a href=\"/contact/\" rel=\"nofollow\">Report Ad</a>)</p>\n\
+      <!-- BuySellAds.com Zone Code\n\
+      <div id=\"bsap_1263151\" class=\"bsarocks bsap_98d6915731db38cdebc72e15b7b23b2b\"></div>\n\
+      <!-- End BuySellAds.com Zone Code --><!--</div>-->\n\n\n\n\
+      <!--</div>-->\n\
+      \t\n\
+      \t<div id=\"recentgames\" class=\"section\">\t\n\
+      \t\t<h3 class=\"subtitle\">Recent Games</h3>\n\
+      \t\t<table id=\"recentGamesTable\" cellspacing=\"0\" cellpadding=\"0\">\n\
+      \t\t\t\t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Modern-Warfare%C2%AE-2/\"><img src=\"http://tiles.xbox.com/tiles/CE/Vx/0Gdsb2JhbC9ECgQJGgYfVl5UL2ljb24vMC84MDAwAAAAAAAAAP9eRRc=.jpg\" alt=\"Modern Warfare\xC2\xAE 2\" title=\"Modern Warfare\xC2\xAE 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Modern-Warfare%C2%AE-2/\">Modern Warfare\xC2\xAE 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 22 Aug 2011 19:00:07 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 93%;\"><span title=\"930 gamerscore earned out of a total of 1000 gamerscore\">930/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 86%;\"><span title=\"43 achievements unlocked out of a total of 50 achievements\">43/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Modern Warfare\xC2\xAE 2 is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t375</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Halo%3A-Reach/\"><img src=\"http://tiles.xbox.com/tiles/Ff/ej/0Wdsb2JhbC9ECgR8GgMfVlohL2ljb24vMC84MDAwAAAAAAAAAP6M9wo=.jpg\" alt=\"Halo: Reach\" title=\"Halo: Reach\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Halo%3A-Reach/\">Halo: Reach</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 08 Mar 2011 21:20:33 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 26.7857142857%;\"><span title=\"375 gamerscore earned out of a total of 1400 gamerscore\">375/1400</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 44.0677966102%;\"><span title=\"26 achievements unlocked out of a total of 59 achievements\">26/59</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Halo: Reach is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t402</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Portal-2/\"><img src=\"http://tiles.xbox.com/tiles/WI/5t/1mdsb2JhbC9ECgQNGwEfV15RL2ljb24vMC84MDAwAAAAAAAAAPlCjkc=.jpg\" alt=\"Portal 2\" title=\"Portal 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Portal-2/\">Portal 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 34.5%;\"><span title=\"345 gamerscore earned out of a total of 1000 gamerscore\">345/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 42%;\"><span title=\"21 achievements unlocked out of a total of 50 achievements\">21/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Portal 2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t356</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/SUPER-STREETFIGHTER-IV/\"><img src=\"http://tiles.xbox.com/tiles/Pp/8x/0Wdsb2JhbC9ECgQLGwMfWSkgL2ljb24vMC84MDAwAAAAAAAAAP4enyE=.jpg\" alt=\"SUPER STREETFIGHTER IV\" title=\"SUPER STREETFIGHTER IV\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/SUPER-STREETFIGHTER-IV/\">SUPER STREETFIGHTER IV</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 06 Jul 2011 21:16:30 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 40.5172413793%;\"><span title=\"470 gamerscore earned out of a total of 1160 gamerscore\">470/1160</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 48.275862069%;\"><span title=\"28 achievements unlocked out of a total of 58 achievements\">28/58</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for SUPER STREETFIGHTER IV is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t180</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Child-of-Eden/\"><img src=\"http://tiles.xbox.com/tiles/UI/J2/1mdsb2JhbC9ECgUNGgMfVlsgL2ljb24vMC84MDAwAAAAAAAAAPlZgk8=.jpg\" alt=\"Child of Eden\" title=\"Child of Eden\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Child-of-Eden/\">Child of Eden</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 1000 gamerscore\">0/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 49 achievements\">0/49</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Geometry-Wars-Evolved%C2%B2/\"><img src=\"http://tiles.xbox.com/tiles/DQ/Bg/0Gdsb2JhbC9ECgUAGwEfViklL2ljb24vMC84MDAwAAAAAAAAAP9PABI=.jpg\" alt=\"Geometry Wars Evolved\xC2\xB2\" title=\"Geometry Wars Evolved\xC2\xB2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Geometry-Wars-Evolved%C2%B2/\">Geometry Wars Evolved\xC2\xB2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 24 Jul 2011 19:33:40 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 100%;\"><span title=\"200 gamerscore earned out of a total of 200 gamerscore\">200/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 100%;\"><span title=\"12 achievements unlocked out of a total of 12 achievements\">12/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Geometry Wars Evolved\xC2\xB2 is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t94</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Bulletstorm/\"><img src=\"http://tiles.xbox.com/tiles/yZ/Gw/0Gdsb2JhbC9ECgQNGwEfViolL2ljb24vMC84MDAwAAAAAAAAAP+fkdY=.jpg\" alt=\"Bulletstorm\" title=\"Bulletstorm\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Bulletstorm/\">Bulletstorm</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 24 Jul 2011 17:32:02 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 40%;\"><span title=\"500 gamerscore earned out of a total of 1250 gamerscore\">500/1250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 46.6666666667%;\"><span title=\"28 achievements unlocked out of a total of 60 achievements\">28/60</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Bulletstorm is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t292</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/LUMINES-LIVE%21/\"><img src=\"http://tiles.xbox.com/tiles/tP/bz/0Gdsb2JhbC9ECgUAGwEfWSlbL2ljb24vMC84MDAwAAAAAAAAAP-c9qs=.jpg\" alt=\"LUMINES LIVE!\" title=\"LUMINES LIVE!\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/LUMINES-LIVE%21/\">LUMINES LIVE!</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 15 Sep 2010 18:39:52 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for LUMINES LIVE! is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t27</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/MEGA-MAN-10/\"><img src=\"http://tiles.xbox.com/tiles/xR/Zb/1Gdsb2JhbC9ECgUAGwEfVyomL2ljb24vMC84MDAwAAAAAAAAAPt0Fto=.jpg\" alt=\"MEGA MAN 10\" title=\"MEGA MAN 10\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/MEGA-MAN-10/\">MEGA MAN 10</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 03 Jul 2011 15:55:32 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for MEGA MAN 10 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t37</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Call-of-Duty-Black-Ops/\"><img src=\"http://tiles.xbox.com/tiles/2p/0j/1Wdsb2JhbC9ECgQJGgYfVlpWL2ljb24vMC84MDAwAAAAAAAAAPoMncU=.jpg\" alt=\"Call of Duty Black Ops\" title=\"Call of Duty Black Ops\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Call-of-Duty-Black-Ops/\">Call of Duty Black Ops</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 20 Jun 2011 00:45:48 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 20.2941176471%;\"><span title=\"345 gamerscore earned out of a total of 1700 gamerscore\">345/1700</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 23.9436619718%;\"><span title=\"17 achievements unlocked out of a total of 71 achievements\">17/71</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Call of Duty Black Ops is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t292</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/The-Orange-Box/\"><img src=\"http://tiles.xbox.com/tiles/ol/Kj/1mdsb2JhbC9ECgQNGwEfVl8lL2ljb24vMC84MDAwAAAAAAAAAPmMUr0=.jpg\" alt=\"The Orange Box\" title=\"The Orange Box\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/The-Orange-Box/\">The Orange Box</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 12 Jun 2011 11:03:43 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 32%;\"><span title=\"320 gamerscore earned out of a total of 1000 gamerscore\">320/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 40.404040404%;\"><span title=\"40 achievements unlocked out of a total of 99 achievements\">40/99</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for The Orange Box is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t234</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Portal%3A-Still-Alive/\"><img src=\"http://tiles.xbox.com/tiles/Ts/fv/02dsb2JhbC9ECgUAGwEfV1lTL2ljb24vMC84MDAwAAAAAAAAAPzAx1E=.jpg\" alt=\"Portal: Still Alive\" title=\"Portal: Still Alive\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Portal%3A-Still-Alive/\">Portal: Still Alive</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 08 May 2011 16:31:27 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 52.5%;\"><span title=\"105 gamerscore earned out of a total of 200 gamerscore\">105/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 58.3333333333%;\"><span title=\"7 achievements unlocked out of a total of 12 achievements\">7/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Portal: Still Alive is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t66</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Burnout-Paradise/\"><img src=\"http://tiles.xbox.com/tiles/iX/a0/12dsb2JhbC9ECgQNGwEfVl9VL2ljb24vMC84MDAwAAAAAAAAAPibdpY=.jpg\" alt=\"Burnout Paradise\" title=\"Burnout Paradise\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Burnout-Paradise/\">Burnout Paradise</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 17 Apr 2011 14:55:49 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 11.2%;\"><span title=\"140 gamerscore earned out of a total of 1250 gamerscore\">140/1250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 18.3333333333%;\"><span title=\"11 achievements unlocked out of a total of 60 achievements\">11/60</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Burnout Paradise is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t282</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Super-Meat-Boy/\"><img src=\"http://tiles.xbox.com/tiles/Lw/-G/0Wdsb2JhbC9ECgUAGwEfL1oiL2ljb24vMC84MDAwAAAAAAAAAP7pDzA=.jpg\" alt=\"Super Meat Boy\" title=\"Super Meat Boy\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Super-Meat-Boy/\">Super Meat Boy</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 05 Apr 2011 19:17:33 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 25%;\"><span title=\"50 gamerscore earned out of a total of 200 gamerscore\">50/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 33.3333333333%;\"><span title=\"4 achievements unlocked out of a total of 12 achievements\">4/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Super Meat Boy is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t60</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Fallout%3A-New-Vegas/\"><img src=\"http://tiles.xbox.com/tiles/Rn/ZQ/02dsb2JhbC9ECgQKGgMfWSpTL2ljb24vMC84MDAwAAAAAAAAAPx-dlk=.jpg\" alt=\"Fallout: New Vegas\" title=\"Fallout: New Vegas\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Fallout%3A-New-Vegas/\">Fallout: New Vegas</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 08 Mar 2011 21:43:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 17.793594306%;\"><span title=\"250 gamerscore earned out of a total of 1405 gamerscore\">250/1405</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 24.6153846154%;\"><span title=\"16 achievements unlocked out of a total of 65 achievements\">16/65</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Fallout: New Vegas is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t302</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Braid/\"><img src=\"http://tiles.xbox.com/tiles/wJ/N1/0Wdsb2JhbC9ECgUAGwEfViwmL2ljb24vMC84MDAwAAAAAAAAAP5ak98=.jpg\" alt=\"Braid\" title=\"Braid\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Braid/\">Braid</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 06 Mar 2011 22:30:44 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 92.5%;\"><span title=\"185 gamerscore earned out of a total of 200 gamerscore\">185/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 91.6666666667%;\"><span title=\"11 achievements unlocked out of a total of 12 achievements\">11/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Braid is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t120</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/NFS-Hot-Pursuit/\"><img src=\"http://tiles.xbox.com/tiles/R8/Uq/0mdsb2JhbC9ECgQNGwEfV19QL2ljb24vMC84MDAwAAAAAAAAAP0FxVg=.jpg\" alt=\"NFS Hot Pursuit\" title=\"NFS Hot Pursuit\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/NFS-Hot-Pursuit/\">NFS Hot Pursuit</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 11 Feb 2011 16:51:34 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0.719424460432%;\"><span title=\"10 gamerscore earned out of a total of 1390 gamerscore\">10/1390</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 1.38888888889%;\"><span title=\"1 achievements unlocked out of a total of 72 achievements\">1/72</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for NFS Hot Pursuit is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t272</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/LIMBO/\"><img src=\"http://tiles.xbox.com/tiles/uT/rl/1Wdsb2JhbC9ECgUAGwEfVytSL2ljb24vMC84MDAwAAAAAAAAAPrKOqY=.jpg\" alt=\"LIMBO\" title=\"LIMBO\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/LIMBO/\">LIMBO</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 25 Dec 2010 23:49:46 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 60%;\"><span title=\"120 gamerscore earned out of a total of 200 gamerscore\">120/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 33.3333333333%;\"><span title=\"4 achievements unlocked out of a total of 12 achievements\">4/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for LIMBO is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t100</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/PAC-MAN-CE-DX/\"><img src=\"http://tiles.xbox.com/tiles/YV/Ua/12dsb2JhbC9ECgUAGwEfL1cgL2ljb24vMC84MDAwAAAAAAAAAPg1VX4=.jpg\" alt=\"PAC-MAN CE DX\" title=\"PAC-MAN CE DX\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/PAC-MAN-CE-DX/\">PAC-MAN CE DX</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 04 Dec 2010 15:12:27 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 45%;\"><span title=\"90 gamerscore earned out of a total of 200 gamerscore\">90/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 58.3333333333%;\"><span title=\"7 achievements unlocked out of a total of 12 achievements\">7/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for PAC-MAN CE DX is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t142</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/SuperStreetFighter2THD/\"><img src=\"http://tiles.xbox.com/tiles/gt/vL/0mdsb2JhbC9ECgUAGwEfVi5XL2ljb24vMC84MDAwAAAAAAAAAP3k250=.jpg\" alt=\"SuperStreetFighter2THD\" title=\"SuperStreetFighter2THD\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/SuperStreetFighter2THD/\">SuperStreetFighter2THD</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 24 Nov 2010 23:43:59 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 15%;\"><span title=\"30 gamerscore earned out of a total of 200 gamerscore\">30/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 16.6666666667%;\"><span title=\"2 achievements unlocked out of a total of 12 achievements\">2/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for SuperStreetFighter2THD is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t61</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/BAYONETTA/\"><img src=\"http://tiles.xbox.com/tiles/cm/Xf/0Wdsb2JhbC9ECgULGwUfVl5QL2ljb24vMC84MDAwAAAAAAAAAP7wZW0=.jpg\" alt=\"BAYONETTA\" title=\"BAYONETTA\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/BAYONETTA/\">BAYONETTA</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 21 Nov 2010 10:41:47 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.5%;\"><span title=\"25 gamerscore earned out of a total of 1000 gamerscore\">25/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 6%;\"><span title=\"3 achievements unlocked out of a total of 50 achievements\">3/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for BAYONETTA is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t325</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Dead-Space%E2%84%A2/\"><img src=\"http://tiles.xbox.com/tiles/lG/Rn/1Gdsb2JhbC9ECgQNGwEfVlpUL2ljb24vMC84MDAwAAAAAAAAAPtIZIs=.jpg\" alt=\"Dead Space\xE2\x84\xA2\" title=\"Dead Space\xE2\x84\xA2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Dead-Space%E2%84%A2/\">Dead Space\xE2\x84\xA2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 12 Nov 2010 02:08:01 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 40%;\"><span title=\"400 gamerscore earned out of a total of 1000 gamerscore\">400/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 41.6666666667%;\"><span title=\"20 achievements unlocked out of a total of 48 achievements\">20/48</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Dead Space\xE2\x84\xA2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t421</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/STREET-FIGHTER-IV/\"><img src=\"http://tiles.xbox.com/tiles/sx/0O/1Gdsb2JhbC9ECgQLGwMfWSpSL2ljb24vMC84MDAwAAAAAAAAAPshHaw=.jpg\" alt=\"STREET FIGHTER IV\" title=\"STREET FIGHTER IV\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/STREET-FIGHTER-IV/\">STREET FIGHTER IV</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 24 Oct 2010 22:11:59 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 42%;\"><span title=\"420 gamerscore earned out of a total of 1000 gamerscore\">420/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 52.0833333333%;\"><span title=\"25 achievements unlocked out of a total of 48 achievements\">25/48</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for STREET FIGHTER IV is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t172</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/LOST-PLANET-2/\"><img src=\"http://tiles.xbox.com/tiles/0H/r3/0Wdsb2JhbC9ECgQLGwMfWSonL2ljb24vMC84MDAwAAAAAAAAAP7Yes8=.jpg\" alt=\"LOST PLANET 2\" title=\"LOST PLANET 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/LOST-PLANET-2/\">LOST PLANET 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 09 Oct 2010 14:00:22 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 1%;\"><span title=\"10 gamerscore earned out of a total of 1000 gamerscore\">10/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2%;\"><span title=\"1 achievements unlocked out of a total of 50 achievements\">1/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for LOST PLANET 2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t108</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/N%2B/\"><img src=\"http://tiles.xbox.com/tiles/rf/XD/1mdsb2JhbC9ECgUAGwEfVlogL2ljb24vMC84MDAwAAAAAAAAAPns9bI=.jpg\" alt=\"N+\" title=\"N+\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/N%2B/\">N+</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 09 Oct 2010 09:25:14 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 22.5%;\"><span title=\"45 gamerscore earned out of a total of 200 gamerscore\">45/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 25%;\"><span title=\"3 achievements unlocked out of a total of 12 achievements\">3/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for N+ is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t61</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/SCOTT-PILGRIM-THE-GAME/\"><img src=\"http://tiles.xbox.com/tiles/i-/B6/0mdsb2JhbC9ECgUAGwEfL10gL2ljb24vMC84MDAwAAAAAAAAAP1V8JQ=.jpg\" alt=\"SCOTT PILGRIM THE GAME\" title=\"SCOTT PILGRIM THE GAME\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/SCOTT-PILGRIM-THE-GAME/\">SCOTT PILGRIM THE GAME</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 08 Oct 2010 22:41:37 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 8%;\"><span title=\"20 gamerscore earned out of a total of 250 gamerscore\">20/250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 13.3333333333%;\"><span title=\"2 achievements unlocked out of a total of 15 achievements\">2/15</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for SCOTT PILGRIM THE GAME is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t68</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/E4/\"><img src=\"http://tiles.xbox.com/tiles/77/19/1Wdsb2JhbC9ECgUAGwEfVlhRL2ljb24vMC84MDAwAAAAAAAAAPpSvfA=.jpg\" alt=\"E4\" title=\"E4\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/E4/\">E4</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 15 Sep 2010 18:48:17 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for E4 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t40</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Battlefield%3A-Bad-Co.-2/\"><img src=\"http://tiles.xbox.com/tiles/v1/Lg/02dsb2JhbC9ECgQNGwEfVi5bL2ljb24vMC84MDAwAAAAAAAAAPzPUqA=.jpg\" alt=\"Battlefield: Bad Co. 2\" title=\"Battlefield: Bad Co. 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Battlefield%3A-Bad-Co.-2/\">Battlefield: Bad Co. 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 05 Sep 2010 14:06:01 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.0979020979%;\"><span title=\"30 gamerscore earned out of a total of 1430 gamerscore\">30/1430</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.77777777778%;\"><span title=\"2 achievements unlocked out of a total of 72 achievements\">2/72</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Battlefield: Bad Co. 2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t456</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Mercenaries-2/\"><img src=\"http://tiles.xbox.com/tiles/V+/St/0Wdsb2JhbC9ECgQNGwEfVl1bL2ljb24vMC84MDAwAAAAAAAAAP6C5Eg=.jpg\" alt=\"Mercenaries 2\" title=\"Mercenaries 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Mercenaries-2/\">Mercenaries 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 14 Aug 2010 15:15:20 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 24%;\"><span title=\"240 gamerscore earned out of a total of 1000 gamerscore\">240/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 27.5%;\"><span title=\"11 achievements unlocked out of a total of 40 achievements\">11/40</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Mercenaries 2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t391</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Halo-3%3A-ODST/\"><img src=\"http://tiles.xbox.com/tiles/97/yQ/12dsb2JhbC9ECgR8GgMfVlhUL2ljb24vMC84MDAwAAAAAAAAAPi-vOg=.jpg\" alt=\"Halo 3: ODST\" title=\"Halo 3: ODST\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Halo-3%3A-ODST/\">Halo 3: ODST</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 08 Aug 2010 18:50:59 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 76%;\"><span title=\"760 gamerscore earned out of a total of 1000 gamerscore\">760/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 72.3404255319%;\"><span title=\"34 achievements unlocked out of a total of 47 achievements\">34/47</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Halo 3: ODST is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t390</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Halo-3/\"><img src=\"http://tiles.xbox.com/tiles/zS/3N/1Wdsb2JhbC9ECgR8GgMfWSpVL2ljb24vMC84MDAwAAAAAAAAAPriLdI=.jpg\" alt=\"Halo 3\" title=\"Halo 3\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Halo-3/\">Halo 3</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 12 Jul 2010 21:22:33 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 41.1428571429%;\"><span title=\"720 gamerscore earned out of a total of 1750 gamerscore\">720/1750</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 44.3037974684%;\"><span title=\"35 achievements unlocked out of a total of 79 achievements\">35/79</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Halo 3 is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t521</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/NINJA-GAIDEN-2/\"><img src=\"http://tiles.xbox.com/tiles/Rf/Lj/1mdsb2JhbC9ECgUMGwMfWStWL2ljb24vMC84MDAwAAAAAAAAAPnM8lo=.jpg\" alt=\"NINJA GAIDEN 2\" title=\"NINJA GAIDEN 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/NINJA-GAIDEN-2/\">NINJA GAIDEN 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 18 Jun 2009 20:06:57 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 56%;\"><span title=\"700 gamerscore earned out of a total of 1250 gamerscore\">700/1250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 65.7142857143%;\"><span title=\"46 achievements unlocked out of a total of 70 achievements\">46/70</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for NINJA GAIDEN 2 is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t257</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Crackdown/\"><img src=\"http://tiles.xbox.com/tiles/WU/EQ/1Wdsb2JhbC9ECgR8GgMfWSsgL2ljb24vMC84MDAwAAAAAAAAAPo-QUY=.jpg\" alt=\"Crackdown\" title=\"Crackdown\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Crackdown/\">Crackdown</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 12 Jun 2010 19:24:45 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 30.8%;\"><span title=\"385 gamerscore earned out of a total of 1250 gamerscore\">385/1250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 46%;\"><span title=\"23 achievements unlocked out of a total of 50 achievements\">23/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Crackdown is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t368</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Left-4-Dead/\"><img src=\"http://tiles.xbox.com/tiles/j9/MR/1mdsb2JhbC9ECgQNGwEfVlxTL2ljb24vMC84MDAwAAAAAAAAAPk+05A=.jpg\" alt=\"Left 4 Dead\" title=\"Left 4 Dead\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Left-4-Dead/\">Left 4 Dead</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 28 Mar 2010 13:21:37 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 8%;\"><span title=\"120 gamerscore earned out of a total of 1500 gamerscore\">120/1500</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 13.8461538462%;\"><span title=\"9 achievements unlocked out of a total of 65 achievements\">9/65</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Left 4 Dead is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t417</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Darksiders/\"><img src=\"http://tiles.xbox.com/tiles/As/84/1mdsb2JhbC9ECgUMGgEfWSpVL2ljb24vMC84MDAwAAAAAAAAAPkXzx0=.jpg\" alt=\"Darksiders\" title=\"Darksiders\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Darksiders/\">Darksiders</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 24 Mar 2010 22:35:40 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 34.5%;\"><span title=\"345 gamerscore earned out of a total of 1000 gamerscore\">345/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 46.511627907%;\"><span title=\"20 achievements unlocked out of a total of 43 achievements\">20/43</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Darksiders is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t391</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/RESIDENT-EVIL-5/\"><img src=\"http://tiles.xbox.com/tiles/DF/XE/1Wdsb2JhbC9ECgQLGwMfWStXL2ljb24vMC84MDAwAAAAAAAAAPrrVRM=.jpg\" alt=\"RESIDENT EVIL 5\" title=\"RESIDENT EVIL 5\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/RESIDENT-EVIL-5/\">RESIDENT EVIL 5</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 31 Jan 2010 00:57:14 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.14285714286%;\"><span title=\"30 gamerscore earned out of a total of 1400 gamerscore\">30/1400</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.85714285714%;\"><span title=\"2 achievements unlocked out of a total of 70 achievements\">2/70</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for RESIDENT EVIL 5 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t476</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Fable-II/\"><img src=\"http://tiles.xbox.com/tiles/I8/gL/1Wdsb2JhbC9ECgR8GgMfWSlSL2ljb24vMC84MDAwAAAAAAAAAPokyDw=.jpg\" alt=\"Fable II\" title=\"Fable II\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Fable-II/\">Fable II</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 28 Jan 2010 19:37:10 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 17.037037037%;\"><span title=\"230 gamerscore earned out of a total of 1350 gamerscore\">230/1350</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 18.1818181818%;\"><span title=\"12 achievements unlocked out of a total of 66 achievements\">12/66</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Fable II is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t520</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Borderlands/\"><img src=\"http://tiles.xbox.com/tiles/ot/8Y/0Gdsb2JhbC9ECgUMGgQfWSpUL2ljb24vMC84MDAwAAAAAAAAAP83370=.jpg\" alt=\"Borderlands\" title=\"Borderlands\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Borderlands/\">Borderlands</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 06 Jan 2010 19:34:56 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 6%;\"><span title=\"105 gamerscore earned out of a total of 1750 gamerscore\">105/1750</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 8.75%;\"><span title=\"7 achievements unlocked out of a total of 80 achievements\">7/80</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Borderlands is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t697</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Halo-Waypoint/\"><img src=\"http://tiles.xbox.com/tiles/kN/F2/12dsb2JhbC9ECgR8GgMfViwmL2ljb24vMC84MDAwAAAAAAAAAPhZ0Y8=.jpg\" alt=\"Halo Waypoint\" title=\"Halo Waypoint\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Halo-Waypoint/\">Halo Waypoint</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 23 Nov 2009 21:03:08 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 0 gamerscore\">0/0</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 0 achievements\">0/0</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Halo Waypoint is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t0</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Call-of-Duty-4/\"><img src=\"http://tiles.xbox.com/tiles/sa/Fy/1mdsb2JhbC9ECgQJGgYfWSpVL2ljb24vMC84MDAwAAAAAAAAAPldoa4=.jpg\" alt=\"Call of Duty 4\" title=\"Call of Duty 4\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Call-of-Duty-4/\">Call of Duty 4</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 10 Nov 2009 23:09:50 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 10%;\"><span title=\"100 gamerscore earned out of a total of 1000 gamerscore\">100/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 13.5135135135%;\"><span title=\"5 achievements unlocked out of a total of 37 achievements\">5/37</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Call of Duty 4 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t361</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/%5BPROTOTYPE%5D%E2%84%A2/\"><img src=\"http://tiles.xbox.com/tiles/Br/IQ/0Wdsb2JhbC9ECgQJGgYfVlsmL2ljb24vMC84MDAwAAAAAAAAAP4-shk=.jpg\" alt=\"[PROTOTYPE]\xE2\x84\xA2\" title=\"[PROTOTYPE]\xE2\x84\xA2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/%5BPROTOTYPE%5D%E2%84%A2/\">[PROTOTYPE]\xE2\x84\xA2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 04 Nov 2009 20:40:25 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 3%;\"><span title=\"30 gamerscore earned out of a total of 1000 gamerscore\">30/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 7.5%;\"><span title=\"3 achievements unlocked out of a total of 40 achievements\">3/40</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for [PROTOTYPE]\xE2\x84\xA2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t221</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Geometry-Wars-Evolved/\"><img src=\"http://tiles.xbox.com/tiles/Zs/of/0Gdsb2JhbC9ECgUAGwEfWSonL2ljb24vMC84MDAwAAAAAAAAAP8wynk=.jpg\" alt=\"Geometry Wars Evolved\" title=\"Geometry Wars Evolved\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Geometry-Wars-Evolved/\">Geometry Wars Evolved</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 06 Oct 2009 19:17:57 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 75%;\"><span title=\"150 gamerscore earned out of a total of 200 gamerscore\">150/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 83.3333333333%;\"><span title=\"10 achievements unlocked out of a total of 12 achievements\">10/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Geometry Wars Evolved is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t27</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Gears-of-War-2/\"><img src=\"http://tiles.xbox.com/tiles/EQ/uS/12dsb2JhbC9ECgR8GgMfVl0nL2ljb24vMC84MDAwAAAAAAAAAPi9Cw4=.jpg\" alt=\"Gears of War 2\" title=\"Gears of War 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Gears-of-War-2/\">Gears of War 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 20 Feb 2009 23:11:45 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 26.2857142857%;\"><span title=\"460 gamerscore earned out of a total of 1750 gamerscore\">460/1750</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 36.7088607595%;\"><span title=\"29 achievements unlocked out of a total of 79 achievements\">29/79</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Gears of War 2 is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t425</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Fallout-3/\"><img src=\"http://tiles.xbox.com/tiles/+T/6a/0mdsb2JhbC9ECgQKGgMfWStWL2ljb24vMC84MDAwAAAAAAAAAP21PuY=.jpg\" alt=\"Fallout 3\" title=\"Fallout 3\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Fallout-3/\">Fallout 3</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 04 Sep 2009 23:12:03 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 42.5806451613%;\"><span title=\"660 gamerscore earned out of a total of 1550 gamerscore\">660/1550</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 47.2222222222%;\"><span title=\"34 achievements unlocked out of a total of 72 achievements\">34/72</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Fallout 3 is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t510</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Guitar-Hero-III/\"><img src=\"http://tiles.xbox.com/tiles/L8/b-/0Wdsb2JhbC9ECgQJGgYfWSlUL2ljb24vMC84MDAwAAAAAAAAAP7QxjA=.jpg\" alt=\"Guitar Hero III\" title=\"Guitar Hero III\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Guitar-Hero-III/\">Guitar Hero III</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 27 Feb 2009 20:48:46 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0.5%;\"><span title=\"5 gamerscore earned out of a total of 1000 gamerscore\">5/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 1.69491525424%;\"><span title=\"1 achievements unlocked out of a total of 59 achievements\">1/59</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Guitar Hero III is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t107</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Castle-Crashers/\"><img src=\"http://tiles.xbox.com/tiles/zD/2A/12dsb2JhbC9ECgUAGwEfVi1UL2ljb24vMC84MDAwAAAAAAAAAPivPdM=.jpg\" alt=\"Castle Crashers\" title=\"Castle Crashers\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Castle-Crashers/\">Castle Crashers</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 28 Dec 2008 19:34:54 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 42.5%;\"><span title=\"85 gamerscore earned out of a total of 200 gamerscore\">85/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 41.6666666667%;\"><span title=\"5 achievements unlocked out of a total of 12 achievements\">5/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Castle Crashers is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t82</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/GTA-IV/\"><img src=\"http://tiles.xbox.com/tiles/nL/sY/0mdsb2JhbC9ECgUMGgQfWSlRL2ljb24vMC84MDAwAAAAAAAAAP03u4M=.jpg\" alt=\"GTA IV\" title=\"GTA IV\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/GTA-IV/\">GTA IV</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 27 Feb 2009 21:34:36 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 5.66666666667%;\"><span title=\"85 gamerscore earned out of a total of 1500 gamerscore\">85/1500</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 9.23076923077%;\"><span title=\"6 achievements unlocked out of a total of 65 achievements\">6/65</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for GTA IV is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t230</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Worms/\"><img src=\"http://tiles.xbox.com/tiles/eY/FY/1Gdsb2JhbC9ECgUAGwEfWSsmL2ljb24vMC84MDAwAAAAAAAAAPt3gWY=.jpg\" alt=\"Worms\" title=\"Worms\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Worms/\">Worms</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 22 Feb 2009 03:57:45 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 100%;\"><span title=\"200 gamerscore earned out of a total of 200 gamerscore\">200/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 100%;\"><span title=\"12 achievements unlocked out of a total of 12 achievements\">12/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Worms is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t68</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Gears-of-War/\"><img src=\"http://tiles.xbox.com/tiles/Au/dM/02dsb2JhbC9ECgR8GgMfWStWL2ljb24vMC84MDAwAAAAAAAAAPxj5x0=.jpg\" alt=\"Gears of War\" title=\"Gears of War\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Gears-of-War/\">Gears of War</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 28 Jun 2008 15:01:31 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 9.6%;\"><span title=\"120 gamerscore earned out of a total of 1250 gamerscore\">120/1250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 19.298245614%;\"><span title=\"11 achievements unlocked out of a total of 57 achievements\">11/57</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Gears of War is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t266</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Pac-Man-C.E./\"><img src=\"http://tiles.xbox.com/tiles/p-/6T/0Wdsb2JhbC9ECgUAGwEfVlhUL2ljb24vMC84MDAwAAAAAAAAAP68-rg=.jpg\" alt=\"Pac-Man C.E.\" title=\"Pac-Man C.E.\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Pac-Man-C.E./\">Pac-Man C.E.</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 17 Jan 2009 01:23:19 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 85%;\"><span title=\"170 gamerscore earned out of a total of 200 gamerscore\">170/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 91.6666666667%;\"><span title=\"11 achievements unlocked out of a total of 12 achievements\">11/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Pac-Man C.E. is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t49</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/TC%27s-RainbowSix-Vegas/\"><img src=\"http://tiles.xbox.com/tiles/YB/h7/02dsb2JhbC9ECgUNGgMfWStVL2ljb24vMC84MDAwAAAAAAAAAPxUGH8=.jpg\" alt=\"TC's RainbowSix Vegas\" title=\"TC's RainbowSix Vegas\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/TC%27s-RainbowSix-Vegas/\">TC's RainbowSix Vegas</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 1000 gamerscore\">0/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 36 achievements\">0/36</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for TC's RainbowSix Vegas is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t198</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/DEAD-RISING/\"><img src=\"http://tiles.xbox.com/tiles/fN/eP/0mdsb2JhbC9ECgQLGwMfWStRL2ljb24vMC84MDAwAAAAAAAAAP2g12M=.jpg\" alt=\"DEAD RISING\" title=\"DEAD RISING\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/DEAD-RISING/\">DEAD RISING</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 28 May 2008 18:56:06 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 18%;\"><span title=\"180 gamerscore earned out of a total of 1000 gamerscore\">180/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 18%;\"><span title=\"9 achievements unlocked out of a total of 50 achievements\">9/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for DEAD RISING is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t240</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/skate./\"><img src=\"http://tiles.xbox.com/tiles/Nj/5+/1mdsb2JhbC9ECgQNGwEfVl5QL2ljb24vMC84MDAwAAAAAAAAAPlRPik=.jpg\" alt=\"skate.\" title=\"skate.\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/skate./\">skate.</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 07 May 2008 20:25:01 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2%;\"><span title=\"20 gamerscore earned out of a total of 1000 gamerscore\">20/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 6.81818181818%;\"><span title=\"3 achievements unlocked out of a total of 44 achievements\">3/44</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for skate. is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t171</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/BioShock/\"><img src=\"http://tiles.xbox.com/tiles/4i/qM/0Wdsb2JhbC9ECgUMGgQfWStbL2ljb24vMC84MDAwAAAAAAAAAP6jKv0=.jpg\" alt=\"BioShock\" title=\"BioShock\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/BioShock/\">BioShock</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 19 Apr 2008 00:12:02 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 7.27272727273%;\"><span title=\"80 gamerscore earned out of a total of 1100 gamerscore\">80/1100</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 15.6862745098%;\"><span title=\"8 achievements unlocked out of a total of 51 achievements\">8/51</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for BioShock is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t481</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/LOST-PLANET/\"><img src=\"http://tiles.xbox.com/tiles/lJ/fs/02dsb2JhbC9ECgQLGwMfWStQL2ljb24vMC84MDAwAAAAAAAAAPzDl4s=.jpg\" alt=\"LOST PLANET\" title=\"LOST PLANET\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/LOST-PLANET/\">LOST PLANET</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 11 Apr 2008 17:38:21 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 19.5%;\"><span title=\"195 gamerscore earned out of a total of 1000 gamerscore\">195/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 31.4285714286%;\"><span title=\"11 achievements unlocked out of a total of 35 achievements\">11/35</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for LOST PLANET is above average\"><img src=\"/resources/images/icons/up.png\" alt=\"Up Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t159</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Battlestations%3A-Midway/\"><img src=\"http://tiles.xbox.com/tiles/Wx/dH/1mdsb2JhbC9ECgULGwMfWStaL2ljb24vMC84MDAwAAAAAAAAAPloF0Q=.jpg\" alt=\"Battlestations: Midway\" title=\"Battlestations: Midway\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Battlestations%3A-Midway/\">Battlestations: Midway</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 07 Apr 2008 22:54:05 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 1000 gamerscore\">0/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 22 achievements\">0/22</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Battlestations: Midway is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t184</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Kane-and-Lynch%3ADeadMen/\"><img src=\"http://tiles.xbox.com/tiles/a2/CY/0Gdsb2JhbC9ECgULGwMfWSpTL2ljb24vMC84MDAwAAAAAAAAAP+3YHQ=.jpg\" alt=\"Kane and Lynch:DeadMen\" title=\"Kane and Lynch:DeadMen\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Kane-and-Lynch%3ADeadMen/\">Kane and Lynch:DeadMen</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 09 Feb 2008 17:01:04 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 4%;\"><span title=\"50 gamerscore earned out of a total of 1250 gamerscore\">50/1250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 5.76923076923%;\"><span title=\"3 achievements unlocked out of a total of 52 achievements\">3/52</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Kane and Lynch:DeadMen is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t238</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Enchanted-Arms/\"><img src=\"http://tiles.xbox.com/tiles/lx/Nf/1mdsb2JhbC9ECgUNGgMfWSpVL2ljb24vMC84MDAwAAAAAAAAAPlwE4g=.jpg\" alt=\"Enchanted Arms\" title=\"Enchanted Arms\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Enchanted-Arms/\">Enchanted Arms</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 24 Dec 2007 22:30:31 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 1000 gamerscore\">0/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 25 achievements\">0/25</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Enchanted Arms is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t443</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Puzzle-Fighter-HD/\"><img src=\"http://tiles.xbox.com/tiles/q1/Bm/12dsb2JhbC9ECgUAGwEfVlkmL2ljb24vMC84MDAwAAAAAAAAAPhJULQ=.jpg\" alt=\"Puzzle Fighter HD\" title=\"Puzzle Fighter HD\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Puzzle-Fighter-HD/\">Puzzle Fighter HD</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 02 Nov 2007 21:43:22 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Puzzle Fighter HD is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t34</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Geon/\"><img src=\"http://tiles.xbox.com/tiles/6R/jY/1Gdsb2JhbC9ECgUAGwEfVltXL2ljb24vMC84MDAwAAAAAAAAAPv3GPY=.jpg\" alt=\"Geon\" title=\"Geon\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Geon/\">Geon</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Fri, 02 Nov 2007 21:36:15 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Geon is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t29</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Sonic-The-Hedgehog-2/\"><img src=\"http://tiles.xbox.com/tiles/8P/Y6/0Wdsb2JhbC9ECgUAGwEfVllQL2ljb24vMC84MDAwAAAAAAAAAP4V9u8=.jpg\" alt=\"Sonic The Hedgehog 2\" title=\"Sonic The Hedgehog 2\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Sonic-The-Hedgehog-2/\">Sonic The Hedgehog 2</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 14 Oct 2007 00:15:36 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Sonic The Hedgehog 2 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t50</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Fatal-Fury-Special/\"><img src=\"http://tiles.xbox.com/tiles/-g/Fb/0Gdsb2JhbC9ECgUAGwEfVlwiL2ljb24vMC84MDAwAAAAAAAAAP90AeE=.jpg\" alt=\"Fatal Fury Special\" title=\"Fatal Fury Special\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Fatal-Fury-Special/\">Fatal Fury Special</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 14 Oct 2007 00:00:43 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Fatal Fury Special is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t30</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Small-Arms/\"><img src=\"http://tiles.xbox.com/tiles/Uq/VP/1Wdsb2JhbC9ECgUAGwEfWStWL2ljb24vMC84MDAwAAAAAAAAAPpgpU0=.jpg\" alt=\"Small Arms\" title=\"Small Arms\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Small-Arms/\">Small Arms</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 13 Oct 2007 23:55:23 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 235 gamerscore\">0/235</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 14 achievements\">0/14</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Small Arms is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t54</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Street-Fighter-II%27-HF/\"><img src=\"http://tiles.xbox.com/tiles/O8/nm/12dsb2JhbC9ECgUAGwEfWSlXL2ljb24vMC84MDAwAAAAAAAAAPjJySQ=.jpg\" alt=\"Street Fighter II' HF\" title=\"Street Fighter II' HF\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Street-Fighter-II%27-HF/\">Street Fighter II' HF</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 13 Oct 2007 23:54:44 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Street Fighter II' HF is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t24</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Paperboy/\"><img src=\"http://tiles.xbox.com/tiles/DR/Lw/1mdsb2JhbC9ECgUAGwEfVl1aL2ljb24vMC84MDAwAAAAAAAAAPnfEhI=.jpg\" alt=\"Paperboy\" title=\"Paperboy\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Paperboy/\">Paperboy</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 13 Oct 2007 23:54:04 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Paperboy is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t33</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Bomberman-LIVE/\"><img src=\"http://tiles.xbox.com/tiles/Zs/Nz/1mdsb2JhbC9ECgUAGwEfVlwlL2ljb24vMC84MDAwAAAAAAAAAPlcw3k=.jpg\" alt=\"Bomberman LIVE\" title=\"Bomberman LIVE\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Bomberman-LIVE/\">Bomberman LIVE</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 13 Oct 2007 23:45:58 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Bomberman LIVE is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t40</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Perfect-Dark-Zero/\"><img src=\"http://tiles.xbox.com/tiles/cm/UH/1Gdsb2JhbC9ECgR8GgMfWStQL2ljb24vMC84MDAwAAAAAAAAAPsoZW0=.jpg\" alt=\"Perfect Dark Zero\" title=\"Perfect Dark Zero\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Perfect-Dark-Zero/\">Perfect Dark Zero</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 31 Jul 2007 21:36:09 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 1000 gamerscore\">0/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 50 achievements\">0/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Perfect Dark Zero is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t109</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Burnout-Revenge/\"><img src=\"http://tiles.xbox.com/tiles/u7/Ut/1Wdsb2JhbC9ECgQNGwEfWSsgL2ljb24vMC84MDAwAAAAAAAAAPoCtaQ=.jpg\" alt=\"Burnout Revenge\" title=\"Burnout Revenge\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Burnout-Revenge/\">Burnout Revenge</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 28 Jul 2007 19:56:29 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 1.5%;\"><span title=\"15 gamerscore earned out of a total of 1000 gamerscore\">15/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.77777777778%;\"><span title=\"1 achievements unlocked out of a total of 36 achievements\">1/36</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Burnout Revenge is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t148</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Condemned/\"><img src=\"http://tiles.xbox.com/tiles/PI/r4/0mdsb2JhbC9ECgULGwUfWStRL2ljb24vMC84MDAwAAAAAAAAAP3XiiM=.jpg\" alt=\"Condemned\" title=\"Condemned\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Condemned/\">Condemned</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Wed, 27 Jun 2007 21:42:35 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 16.4948453608%;\"><span title=\"160 gamerscore earned out of a total of 970 gamerscore\">160/970</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 24%;\"><span title=\"12 achievements unlocked out of a total of 50 achievements\">12/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Condemned is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t340</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Band-of-Bugs/\"><img src=\"http://tiles.xbox.com/tiles/kc/hX/02dsb2JhbC9ECgUAGwEfVl0lL2ljb24vMC84MDAwAAAAAAAAAPx4yI4=.jpg\" alt=\"Band of Bugs\" title=\"Band of Bugs\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Band-of-Bugs/\">Band of Bugs</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sun, 24 Jun 2007 13:15:32 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 250 gamerscore\">0/250</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 15 achievements\">0/15</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Band of Bugs is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t37</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Castlevania%3A-SOTN/\"><img src=\"http://tiles.xbox.com/tiles/0d/l9/12dsb2JhbC9ECgUAGwEfVltUL2ljb24vMC84MDAwAAAAAAAAAPhS2c4=.jpg\" alt=\"Castlevania: SOTN\" title=\"Castlevania: SOTN\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Castlevania%3A-SOTN/\">Castlevania: SOTN</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 05 Jun 2007 21:20:33 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Castlevania: SOTN is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t48</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Eets%3A-Chowdown/\"><img src=\"http://tiles.xbox.com/tiles/gi/3l/0Wdsb2JhbC9ECgUAGwEfVl1WL2ljb24vMC84MDAwAAAAAAAAAP7KLZ0=.jpg\" alt=\"Eets: Chowdown\" title=\"Eets: Chowdown\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Eets%3A-Chowdown/\">Eets: Chowdown</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 07 Jun 2007 19:28:34 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Eets: Chowdown is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t23</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Hexic-HD/\"><img src=\"http://tiles.xbox.com/tiles/8q/bC/0Gdsb2JhbC9ECgUAGwEfWStSL2ljb24vMC84MDAwAAAAAAAAAP-tpu0=.jpg\" alt=\"Hexic HD\" title=\"Hexic HD\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Hexic-HD/\">Hexic HD</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 09 Jun 2007 23:57:22 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 5%;\"><span title=\"10 gamerscore earned out of a total of 200 gamerscore\">10/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 16.6666666667%;\"><span title=\"2 achievements unlocked out of a total of 12 achievements\">2/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Hexic HD is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t31</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Smash-TV/\"><img src=\"http://tiles.xbox.com/tiles/Ba/3m/1Wdsb2JhbC9ECgUAGwEfWSpSL2ljb24vMC84MDAwAAAAAAAAAPrJrRo=.jpg\" alt=\"Smash TV\" title=\"Smash TV\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Smash-TV/\">Smash TV</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Sat, 09 Jun 2007 19:40:01 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Smash TV is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t28</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Assault-Heroes/\"><img src=\"http://tiles.xbox.com/tiles/+K/2S/12dsb2JhbC9ECgUAGwEfWSkmL2ljb24vMC84MDAwAAAAAAAAAPi9rec=.jpg\" alt=\"Assault Heroes\" title=\"Assault Heroes\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Assault-Heroes/\">Assault Heroes</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 07 Jun 2007 20:26:41 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Assault Heroes is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t51</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Novadrome/\"><img src=\"http://tiles.xbox.com/tiles/Kp/F+/12dsb2JhbC9ECgUAGwEfWSpaL2ljb24vMC84MDAwAAAAAAAAAPhRkTU=.jpg\" alt=\"Novadrome\" title=\"Novadrome\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Novadrome/\">Novadrome</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 07 Jun 2007 20:16:42 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Novadrome is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t18</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Heavy-Weapon/\"><img src=\"http://tiles.xbox.com/tiles/vE/nl/02dsb2JhbC9ECgUAGwEfVl5TL2ljb24vMC84MDAwAAAAAAAAAPzKSaM=.jpg\" alt=\"Heavy Weapon\" title=\"Heavy Weapon\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Heavy-Weapon/\">Heavy Weapon</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 07 Jun 2007 20:00:11 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Heavy Weapon is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Catan/\"><img src=\"http://tiles.xbox.com/tiles/Xg/LW/1Wdsb2JhbC9ECgUAGwEfVlwmL2ljb24vMC84MDAwAAAAAAAAAPr5AkE=.jpg\" alt=\"Catan\" title=\"Catan\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Catan/\">Catan</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 07 Jun 2007 19:27:28 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Catan is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t49</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Boom-Boom-Rocket/\"><img src=\"http://tiles.xbox.com/tiles/C1/Pr/0mdsb2JhbC9ECgUAGwEfVlkiL2ljb24vMC84MDAwAAAAAAAAAP3EUxQ=.jpg\" alt=\"Boom Boom Rocket\" title=\"Boom Boom Rocket\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Boom-Boom-Rocket/\">Boom Boom Rocket</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 07 Jun 2007 19:24:54 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Boom Boom Rocket is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t30</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Double-Dragon/\"><img src=\"http://tiles.xbox.com/tiles/5b/Yt/0mdsb2JhbC9ECgUAGwEfVlolL2ljb24vMC84MDAwAAAAAAAAAP0Ctvo=.jpg\" alt=\"Double Dragon\" title=\"Double Dragon\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Double-Dragon/\">Double Dragon</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Tue, 05 Jun 2007 21:15:46 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Double Dragon is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t29</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/XEVIOUS/\"><img src=\"http://tiles.xbox.com/tiles/d8/PC/0Gdsb2JhbC9ECgUAGwEfVlZXL2ljb24vMC84MDAwAAAAAAAAAP-tw2g=.jpg\" alt=\"XEVIOUS\" title=\"XEVIOUS\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/XEVIOUS/\">XEVIOUS</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 31 May 2007 22:28:56 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for XEVIOUS is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t37</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/TMNT-1989-Arcade/\"><img src=\"http://tiles.xbox.com/tiles/Pz/y7/12dsb2JhbC9ECgUAGwEfVlhTL2ljb24vMC84MDAwAAAAAAAAAPiUPCA=.jpg\" alt=\"TMNT 1989 Arcade\" title=\"TMNT 1989 Arcade\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/TMNT-1989-Arcade/\">TMNT 1989 Arcade</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 24 May 2007 21:36:31 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for TMNT 1989 Arcade is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t38</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Rush%27n-Attack/\"><img src=\"http://tiles.xbox.com/tiles/ez/Ue/0Gdsb2JhbC9ECgUAGwEfVl5aL2ljb24vMC84MDAwAAAAAAAAAP8xNWQ=.jpg\" alt=\"Rush'n Attack\" title=\"Rush'n Attack\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Rush%27n-Attack/\">Rush'n Attack</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Thu, 24 May 2007 21:20:35 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Rush'n Attack is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t25</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/DEAD-OR-ALIVE-4/\"><img src=\"http://tiles.xbox.com/tiles/5f/Fu/02dsb2JhbC9ECgUMGwMfWStSL2ljb24vMC84MDAwAAAAAAAAAPxB8fo=.jpg\" alt=\"DEAD OR ALIVE 4\" title=\"DEAD OR ALIVE 4\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/DEAD-OR-ALIVE-4/\">DEAD OR ALIVE 4</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 1%;\"><span title=\"10 gamerscore earned out of a total of 1000 gamerscore\">10/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 2.22222222222%;\"><span title=\"1 achievements unlocked out of a total of 45 achievements\">1/45</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for DEAD OR ALIVE 4 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t153</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Viva-Pi%C3%B1ata/\"><img src=\"http://tiles.xbox.com/tiles/Gw/mu/1mdsb2JhbC9ECgR8GgMfWSlRL2ljb24vMC84MDAwAAAAAAAAAPmBCQQ=.jpg\" alt=\"Viva Pi\xC3\xB1ata\" title=\"Viva Pi\xC3\xB1ata\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Viva-Pi%C3%B1ata/\">Viva Pi\xC3\xB1ata</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 4%;\"><span title=\"40 gamerscore earned out of a total of 1000 gamerscore\">40/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 4%;\"><span title=\"2 achievements unlocked out of a total of 50 achievements\">2/50</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Viva Pi\xC3\xB1ata is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t311</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Texas-Hold%27em/\"><img src=\"http://tiles.xbox.com/tiles/60/gg/1Wdsb2JhbC9ECgUAGwEfWSlVL2ljb24vMC84MDAwAAAAAAAAAPoPSPQ=.jpg\" alt=\"Texas Hold'em\" title=\"Texas Hold'em\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Texas-Hold%27em/\">Texas Hold'em</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 17.5%;\"><span title=\"35 gamerscore earned out of a total of 200 gamerscore\">35/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 16.6666666667%;\"><span title=\"2 achievements unlocked out of a total of 12 achievements\">2/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Texas Hold'em is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t57</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr2\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/Outpost-Kaloki-X/\"><img src=\"http://tiles.xbox.com/tiles/4U/Nw/0mdsb2JhbC9ECgUAGwEfWSshL2ljb24vMC84MDAwAAAAAAAAAP1fQ-4=.jpg\" alt=\"Outpost Kaloki X\" title=\"Outpost Kaloki X\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/Outpost-Kaloki-X/\">Outpost Kaloki X</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 200 gamerscore\">0/200</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 12 achievements\">0/12</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for Outpost Kaloki X is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t25</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t\t\t<tr class=\"tr1\">\n\
+      \t\t\t\t\t<td class=\"gameTile\"><a href=\"/game/PGR-3/\"><img src=\"http://tiles.xbox.com/tiles/ou/TB/1mdsb2JhbC9ECgR8GgMfWStSL2ljb24vMC84MDAwAAAAAAAAAPnu5L0=.jpg\" alt=\"PGR 3\" title=\"PGR 3\" /></a></td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<p class=\"gameName\"><a href=\"/game/PGR-3/\">PGR 3</a></p>\n\
+      \t\t\t\t\t\t<p>Last played at Mon, 01 Jan 1753 00:00:00 GMT</p>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 gamerscore earned out of a total of 1000 gamerscore\">0/1000</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t\t<div class=\"percentage-container\">          \n\
+      \t\t\t\t\t\t\t<div style=\"width: 0%;\"><span title=\"0 achievements unlocked out of a total of 25 achievements\">0/25</span></div>\n\
+      \t\t\t\t\t\t</div>\n\
+      \t\t\t\t\t</td>\n\
+      \t\t\t\t\t<td>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t<p>Average: \n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span title=\"belial1984's gamerscore for PGR 3 is below average\"><img src=\"/resources/images/icons/down.png\" alt=\"Down Arrow\" />\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t161</span>\n\
+      \t\t\t\t\t\t\t</p>\n\
+      \t\t\t\t\t\t\t\t\t\t\t</td>\n\
+      \t\t\t\t</tr>\n\
+      \t\t\t\t\t</table>\n\
+      \t</div>\n\
+      </div>\n\
+      \t<div class=\"XGTFooter\">\n\
+      \t\t<div class=\"rightCol\">\n\
+      \t\t\t<p><!--GCF:API--> <!---PF:Cache--></p>\n\
+      \t\t</div>\n\
+      \t\t\n\
+      \t</div>\n\
+      </div>\n\
+      <div class=\"XGTFooter\">\n\
+      \t<div class=\"leftCol\">\n\
+      \t\t<a href=\"/contact/\">Contact Us</a> - <a href=\"/legal/terms/\">Terms of Use</a> - <a href=\"/legal/privacy/\">Privacy Policy</a> - <a href=\"/sitemap/\">Sitemap</a>\n\
+      \t\t\n\
+      \t\t<br />\n\
+      \t\tFollow us on: <a href=\"http://www.facebook.com/pages/Xbox-Gamertag/134742809876061\" target=_blank\" rel=\"nofollow\">Facebook</a> - <a href=\"http://twitter.com/XboxGamerTagCom\"  target=_blank\" rel=\"nofollow\">Twitter</a> - <a href=\"http://www.youtube.com/user/XboxGamertagCom\" target=_blank\" rel=\"nofollow\">Youtube</a>\n\
+      \t</div>\n\
+      \t<div class=\"rightCol\">\n\
+      \t\t<p>Xboxgamertag.com &#169 2011</p>\n\
+      \t\t<p>XboxGamertag.com is a member of the Xbox Community Developer Program (XCDP)</p>\n\
+      \t\t<p>We are not affiliated with Microsoft or Xbox</p>\n\
+      \t</div>\t\n\
+      </div>\n\
+      <script type=\"text/javascript\">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-16948229-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>\n\
+      <!-- Start Quantcast tag --><script type=\"text/javascript\">_qoptions={qacct:\"p-aftsHHTxJeedw\"};</script><script type=\"text/javascript\" src=\"http://edge.quantserve.com/quant.js\"></script><noscript><p><img src=\"http://pixel.quantserve.com/pixel/p-aftsHHTxJeedw.gif\" style=\"display: none;\" height=\"1\" width=\"1\" alt=\"Quantcast\"/></p></noscript><!-- End Quantcast tag -->\n\n\
+      </body>\n\
+      </html>\n"
+    http_version: "1.1"

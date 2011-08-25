@@ -1,6 +1,6 @@
 require 'net/http'
 require 'date'
-require 'JSON'
+require 'json'
 require 'hashie'
 require 'nokogiri'
 

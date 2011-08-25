@@ -1,7 +1,16 @@
 module Gamertag
   class SimpleProfile
-    def initialize(gamertag)
-      @profile = fetch(gamertag)
+    def initialize(gamertag, seed_data = nil)
+      if seed_data
+        @profile = seed_data
+      else
+        @profile = fetch(gamertag)
+      end
+    end
+    
+    def self.from_json(data)
+      data = JSON.parse(data)
+      new(data["gamertag"], data)
     end
 
     def method_missing(method_name, args = nil)

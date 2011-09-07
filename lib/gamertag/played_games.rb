@@ -5,8 +5,12 @@ module Gamertag
       @played_games = fetch(gamertag)
     end
     
+    def each(&block)
+      @played_games.each(&block)
+    end
+    
     def method_missing(method_name, args = nil)
-      [:first, :last, :each, :count, :to_hash].each {|method| return @played_games.send(method) if method_name == method }
+      [:first, :last, :count, :to_hash].each {|method| return @played_games.send(method) if method_name == method }
       @played_games[method_name.to_s]
     end
     

@@ -74,6 +74,9 @@ This gem fetches data from two independent sources, which has several implicatio
       game.relative_gamerscore  => :above_average || :below_average || :undefined
     end
     
+## Documentation
+
+You can find [online documentation](http://rubydoc.info/github/barisbalic/gamertag/master/frames) that describes the API in more detail.
     
 ## Note on Patches/Pull Requests
 

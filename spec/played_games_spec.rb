@@ -11,7 +11,7 @@ describe Gamertag::PlayedGames do
     played_games.each {|game| game.title.nil?.should be_false}
     gamerscore_values = [:above_average, :below_average, :undefined]
     played_games.each do |game|
-      gamerscore_values.should.include?(game.relative_gamerscore)
+      gamerscore_values.should include(game.relative_gamerscore)
     end
   end
 end

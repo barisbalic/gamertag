@@ -22,7 +22,7 @@ describe Gamertag::SimpleProfile do
       profile.recent_games.first.last_played.class.should == Time
     end
   end
-  
+
   describe ".from_json" do
     let(:seed_data) {
       {
@@ -57,5 +57,5 @@ describe Gamertag::SimpleProfile do
       end
     end
   end
-  
+
 end

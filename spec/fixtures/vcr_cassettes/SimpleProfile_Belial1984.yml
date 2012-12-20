@@ -1,32 +1,45 @@
---- 
-- !ruby/struct:VCR::HTTPInteraction 
-  request: !ruby/struct:VCR::Request 
-    method: :get
-    uri: http://api.xboxleaders.com:80/v2/?gamertag=Belial1984&format=json
-    body: 
-    headers: 
-  response: !ruby/struct:VCR::Response 
-    status: !ruby/struct:VCR::ResponseStatus 
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.xboxleaders.com/v2/?gamertag=Belial1984&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
       code: 200
       message: OK
-    headers: 
-      date: 
+    headers:
+      Date:
       - Wed, 24 Aug 2011 16:40:13 GMT
-      server: 
-      - Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.13
-      x-powered-by: 
+      Server:
+      - Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1
+        mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.13
+      X-Powered-By:
       - PHP/5.2.13
-      expires: 
+      Expires:
       - Mon, 26 Jul 1997 05:00:00 GMT
-      last-modified: 
+      Last-Modified:
       - Wed, 24 Aug 2011 16:40:14GMT
-      cache-control: 
+      Cache-Control:
       - no-cache, must-revalidate
-      pragma: 
+      Pragma:
       - no-cache
-      content-length: 
-      - "3225"
-      content-type: 
+      Content-Length:
+      - '3225'
+      Content-Type:
       - application/json
-    body: "{\"user\":{\"gamertag\":\"belial1984\",\"is_valid\":1,\"profile_link\":\"http:\\/\\/live.xbox.com\\/member\\/belial1984\",\"launch_team\":{\"xbl\":0,\"nxe\":0,\"kinect\":0},\"account_status\":\"Gold\",\"gender\":\"Male\",\"is_cheater\":0,\"online\":0,\"online_status\":\"Last seen 8\\/22\\/2011 playing Modern Warfare&#174; 2\",\"avatars\":{\"gamer_tile\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatarpic-l.png\",\"small_gamerpic\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatarpic-s.png\",\"large_gamerpic\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatarpic-l.png\",\"body_gamerpic\":\"http:\\/\\/avatar.xboxlive.com\\/avatar\\/belial1984\\/avatar-body.png\"},\"reputation\":100,\"gamerscore\":11910,\"location\":\"london\",\"motto\":\"\",\"name\":\"baris balic\",\"bio\":\"\",\"recent_games\":{\"1\":{\"title\":\"Modern Warfare&#174; 2\",\"tid\":1096157207,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1096157207\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1096157207&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/l6\\/Vi\\/0Gdsb2JhbA9ECgQJGgYfVl5UL2ljb24vMC84MDAwIAAAAAAAAP9NpYg=.jpg\",\"last_played\":\"1313967600\",\"earned_gamerscore\":930,\"available_gamerscore\":1000,\"earned_achievements\":43,\"available_achievements\":50,\"percentage_complete\":86},\"2\":{\"title\":\"Halo: Reach\",\"tid\":1297287259,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1297287259\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1297287259&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/ih\\/ew\\/0Wdsb2JhbA9ECgR8GgMfVlohL2ljb24vMC84MDAwIAAAAAAAAP6fF5U=.jpg\",\"last_played\":\"1299542400\",\"earned_gamerscore\":375,\"available_gamerscore\":1400,\"earned_achievements\":26,\"available_achievements\":59,\"percentage_complete\":44},\"3\":{\"title\":\"Portal 2\",\"tid\":1161890066,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1161890066\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1161890066&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/x2\\/5+\\/1mdsb2JhbA9ECgQNGwEfV15RL2ljb24vMC84MDAwIAAAAAAAAPlRbtg=.jpg\",\"last_played\":\"\",\"earned_gamerscore\":345,\"available_gamerscore\":1000,\"earned_achievements\":21,\"available_achievements\":50,\"percentage_complete\":42},\"4\":{\"title\":\"SUPER STREETFIGHTER IV\",\"tid\":1128466428,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1128466428\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1128466428&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/oX\\/8i\\/0Wdsb2JhbA9ECgQLGwMfWSkgL2ljb24vMC84MDAwIAAAAAAAAP4Nf74=.jpg\",\"last_played\":\"1309906800\",\"earned_gamerscore\":470,\"available_gamerscore\":1160,\"earned_achievements\":28,\"available_achievements\":58,\"percentage_complete\":48},\"5\":{\"title\":\"Child of Eden\",\"tid\":1431504972,\"marketplace_url\":\"http:\\/\\/marketplace.xbox.com\\/Title\\/1431504972\",\"compare_url\":\"http:\\/\\/live.xbox.com\\/en-US\\/GameCenter\\/Achievements?title=1431504972&amp;compareTo=belial1984\",\"image\":\"http:\\/\\/tiles.xbox.com\\/tiles\\/z2\\/Jl\\/1mdsb2JhbA9ECgUNGgMfVlsgL2ljb24vMC84MDAwIAAAAAAAAPlKYtA=.jpg\",\"last_played\":\"\",\"earned_gamerscore\":0,\"available_gamerscore\":1000,\"earned_achievements\":0,\"available_achievements\":49,\"percentage_complete\":0}}}}"
-    http_version: "1.1"
+    body:
+      encoding: UTF-8
+      string: ! '{"user":{"gamertag":"belial1984","is_valid":1,"profile_link":"http:\/\/live.xbox.com\/member\/belial1984","launch_team":{"xbl":0,"nxe":0,"kinect":0},"account_status":"Gold","gender":"Male","is_cheater":0,"online":0,"online_status":"Last
+        seen 8\/22\/2011 playing Modern Warfare&#174; 2","avatars":{"gamer_tile":"http:\/\/avatar.xboxlive.com\/avatar\/belial1984\/avatarpic-l.png","small_gamerpic":"http:\/\/avatar.xboxlive.com\/avatar\/belial1984\/avatarpic-s.png","large_gamerpic":"http:\/\/avatar.xboxlive.com\/avatar\/belial1984\/avatarpic-l.png","body_gamerpic":"http:\/\/avatar.xboxlive.com\/avatar\/belial1984\/avatar-body.png"},"reputation":100,"gamerscore":11910,"location":"london","motto":"","name":"baris
+        balic","bio":"","recent_games":{"1":{"title":"Modern Warfare&#174; 2","tid":1096157207,"marketplace_url":"http:\/\/marketplace.xbox.com\/Title\/1096157207","compare_url":"http:\/\/live.xbox.com\/en-US\/GameCenter\/Achievements?title=1096157207&amp;compareTo=belial1984","image":"http:\/\/tiles.xbox.com\/tiles\/l6\/Vi\/0Gdsb2JhbA9ECgQJGgYfVl5UL2ljb24vMC84MDAwIAAAAAAAAP9NpYg=.jpg","last_played":"1313967600","earned_gamerscore":930,"available_gamerscore":1000,"earned_achievements":43,"available_achievements":50,"percentage_complete":86},"2":{"title":"Halo:
+        Reach","tid":1297287259,"marketplace_url":"http:\/\/marketplace.xbox.com\/Title\/1297287259","compare_url":"http:\/\/live.xbox.com\/en-US\/GameCenter\/Achievements?title=1297287259&amp;compareTo=belial1984","image":"http:\/\/tiles.xbox.com\/tiles\/ih\/ew\/0Wdsb2JhbA9ECgR8GgMfVlohL2ljb24vMC84MDAwIAAAAAAAAP6fF5U=.jpg","last_played":"1299542400","earned_gamerscore":375,"available_gamerscore":1400,"earned_achievements":26,"available_achievements":59,"percentage_complete":44},"3":{"title":"Portal
+        2","tid":1161890066,"marketplace_url":"http:\/\/marketplace.xbox.com\/Title\/1161890066","compare_url":"http:\/\/live.xbox.com\/en-US\/GameCenter\/Achievements?title=1161890066&amp;compareTo=belial1984","image":"http:\/\/tiles.xbox.com\/tiles\/x2\/5+\/1mdsb2JhbA9ECgQNGwEfV15RL2ljb24vMC84MDAwIAAAAAAAAPlRbtg=.jpg","last_played":"","earned_gamerscore":345,"available_gamerscore":1000,"earned_achievements":21,"available_achievements":50,"percentage_complete":42},"4":{"title":"SUPER
+        STREETFIGHTER IV","tid":1128466428,"marketplace_url":"http:\/\/marketplace.xbox.com\/Title\/1128466428","compare_url":"http:\/\/live.xbox.com\/en-US\/GameCenter\/Achievements?title=1128466428&amp;compareTo=belial1984","image":"http:\/\/tiles.xbox.com\/tiles\/oX\/8i\/0Wdsb2JhbA9ECgQLGwMfWSkgL2ljb24vMC84MDAwIAAAAAAAAP4Nf74=.jpg","last_played":"1309906800","earned_gamerscore":470,"available_gamerscore":1160,"earned_achievements":28,"available_achievements":58,"percentage_complete":48},"5":{"title":"Child
+        of Eden","tid":1431504972,"marketplace_url":"http:\/\/marketplace.xbox.com\/Title\/1431504972","compare_url":"http:\/\/live.xbox.com\/en-US\/GameCenter\/Achievements?title=1431504972&amp;compareTo=belial1984","image":"http:\/\/tiles.xbox.com\/tiles\/z2\/Jl\/1mdsb2JhbA9ECgUNGgMfVlsgL2ljb24vMC84MDAwIAAAAAAAAPlKYtA=.jpg","last_played":"","earned_gamerscore":0,"available_gamerscore":1000,"earned_achievements":0,"available_achievements":49,"percentage_complete":0}}}}'
+    http_version: '1.1'
+  recorded_at: Thu, 25 Aug 2011 00:52:26 GMT
+recorded_with: VCR 2.3.0

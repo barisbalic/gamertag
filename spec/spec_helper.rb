@@ -4,9 +4,9 @@ require 'vcr'
 
 require File.join(File.dirname(__FILE__), %w{ .. lib gamertag})
 
-VCR.config do |c|
+VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  c.stub_with :fakeweb
+  c.hook_into :fakeweb
   c.default_cassette_options = { :record => :once }
 end
 

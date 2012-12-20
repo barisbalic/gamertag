@@ -88,4 +88,4 @@ You can find [online documentation](http://rubydoc.info/github/barisbalic/gamert
 
 ## Copyright
 
-Copyright (c) 2011 Baris Balic, David Czarnecki.
+Copyright (c) 2011-2012 Baris Balic, David Czarnecki.

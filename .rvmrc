@@ -1,1 +1,1 @@
-rvm use ruby-1.9.2@gamertag_gem --create
+rvm use 1.9.3@gamertag_gem --create

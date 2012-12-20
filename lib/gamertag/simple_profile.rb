@@ -1,6 +1,7 @@
+require 'cgi'
 module Gamertag
   class SimpleProfile
-    # Retrieve XBOX profile information for a given XBOX gamertag from 
+    # Retrieve XBOX profile information for a given XBOX gamertag from
     # xboxleaders.com
     #
     # @param gamertag [String] XBOX gamertag to retrieve profile information for.
@@ -12,11 +13,11 @@ module Gamertag
         @profile = fetch(gamertag)
       end
     end
-    
+
     # Parse profile information from JSON data.
-    # 
+    #
     # @param data [String] JSON data containing XBOX profile information.
-    # 
+    #
     # @return Parsed profile information from JSON data.
     def self.from_json(data)
       data = JSON.parse(data)
@@ -24,7 +25,7 @@ module Gamertag
     end
 
     # Dispatch method names like +gamertag+ or +gamerscore+ to the profile Hash.
-    # 
+    #
     # @param method_name [Symbol] Method name.
     # @param args [Array, nil] Method arguments.
     #
@@ -41,7 +42,7 @@ module Gamertag
         Hashie::Mash.new(v.merge({'last_played' => Time.at(v['last_played'].to_i)}))
       end
     end
-    
+
     # Retrieve the various avatars in use for a profile.
     #
     # @return The various avatars in use for a profile.
@@ -51,14 +52,14 @@ module Gamertag
 
     private
 
-    # Retrieve the profile information as JSON from xboxleaders.com for a given 
+    # Retrieve the profile information as JSON from xboxleaders.com for a given
     # XBOX gamertag.
     #
     # @param gamertag [String] XBOX gamertag to retrieve profile information for.
     #
     # @return Hash of profile information from xboxleaders.com.
-    def fetch(gamertag)      
-      uri = URI.parse("http://api.xboxleaders.com/v2/?gamertag=#{gamertag}&format=json")
+    def fetch(gamertag)
+      uri = URI.parse("http://api.xboxleaders.com/v2/?gamertag=#{CGI.escape gamertag}&format=json")
       response = Net::HTTP.get_response(uri)
       hash = JSON.parse(response.body)
       hash['user']

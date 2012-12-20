@@ -1,0 +1,100 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.xboxgamertag.com:80/search/some+user/
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 500
+      message: Internal Server Error
+    headers:
+      set-cookie:
+      - PHPSESSID=q43afhmf2th49p3hluntbkp8h0; path=/
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      pragma:
+      - no-cache
+      vary:
+      - Accept-Encoding
+      content-type:
+      - text/html; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      date:
+      - Thu, 20 Dec 2012 20:16:22 GMT
+      x-varnish:
+      - '1120123603'
+      age:
+      - '0'
+      connection:
+      - keep-alive
+      x-cache:
+      - MISS
+      server:
+      - Xbox Gamertag
+    body: ! "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
+      xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"\n      xmlns:fb=\"https://www.facebook.com/2008/fbml\"
+      lang=\"en\">\n<head>\n<title>Xbox Gamertag data is broken </title>\n<meta http-equiv=\"Content-Type\"
+      content=\"text/html; charset=utf-8\" />\n<meta name=\"description\" content=\"Search
+      Xbox Live Gamertags, Create Xbox Gamercards using the Xbox Gamerator. Get Gamertag
+      Suggestions for a new Gamertag. Find Game information, reviews and more\" />\n<meta
+      name=\"keywords\" content=\"xbox, xbox gamertag, gamertag, gamertag search,
+      xbox gamertag search, xbox live, gamercards, gamertag generator, gamercard generator\"
+      />\n<meta name=\"robots\" content=\"index, follow\" />\n<meta name=\"google-site-verification\"
+      content=\"DawowDmV2J68zDd4Ej0RdjF9C4mPykmq7smE1F2bgTw\" />\n<!-- Stylesheets
+      -->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/resources/css/main.css?1340884017\"
+      />\n\n\n<!-- Javascript -->\n<script type=\"text/javascript\" src=\"/resources/scripts/jquery-1.7.2.min.js?1340884017\"></script>\n\n<!--[if
+      lt IE 7]>\n<script type=\"text/javascript\" src=\"/resources/scripts/supersleight.plugin.js?1340884017\"></script>\n<script>\n$(document).ready(function()\n{\n\t$('img,
+      div, input').supersleight();\n});\n</script>\n<![endif]-->\n\n<div id=\"fb-root\"></div>\n<script
+      type=\"text/javascript\">(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n
+      \ if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n
+      \ js.src = \"//connect.facebook.net/en_GB/all.js#xfbml=1&appId=190837717693571\";\n
+      \ fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));\n</script>\n\n\n\n</head>\n<body>\n\n\n\n<div
+      id=\"container\"><noscript>For full functionality of this page it is necessary
+      to enable JavaScript. Here are the <a href=\"http://www.enable-javascript.com\"
+      target=\"_blank\"> instructions how to enable JavaScript in your web browser</a></noscript>\n\t\n\t<h1
+      id=\"MainTitle\"><a href=\"http://www.xboxgamertag.com/\">Xbox Gamertag</a></h1>\n\t\t\t\t\t\t\t\t\n\n<div
+      class=\"topAd\">\n\n<!-- BuySellAds.com Ad Code -->\n<script type=\"text/javascript\">\n(function(){\n
+      \ var bsa = document.createElement('script');\n     bsa.type = 'text/javascript';\n
+      \    bsa.async = true;\n     bsa.src = 'http://s3.buysellads.com/ac/bsa.js';\n
+      \ (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);\n})();\n</script>\n<!--
+      End BuySellAds.com Ad Code -->\n<div id=\"bsap_1263149\" class=\"bsarocks bsap_98d6915731db38cdebc72e15b7b23b2b\"></div>\n\n\n\n\n\n\n</div>\t\n\t\n\t<div
+      id=\"topLinks\">\n\t\t<ul>\n\t\t\t\t\t\t<li><a href=\"/register/\"><strong>Register</strong></a>
+      | </li>\n\t\t\t<li><a href=\"/login/\">Login</a></li>\n\t\t\t\t\t\t\n\t\t</ul>\n\t</div>\n\t<div
+      id=\"XGTHeader\">\n\t\t<ul id=\"Menu\">\n\t\t\t<li class=\"image\"><a href=\"/\"><img
+      src=\"/resources/images/homeHouse.png\" alt=\"xboxgamertag\" /></a></li>\n\t\t\t<li
+      class=\"left\"><a href=\"/gamercard/\">Gamercards</a></li>\n\t\t\t<li class=\"left\"><a
+      href=\"/gamertag-generator/\">Gamertag Generator</a></li>\n\t\t\t<li class=\"left\"><a
+      href=\"/achievements/\">Achievements</a></li>\n\t\t\t<li class=\"left\"><a href=\"/leaderboards/\">Leaderboards</a></li>\n\n\t\t\t<!---<li
+      class=\"rightOption\"><a href=\"/forum/\">Forums</a></li>-->\n\t\t\t\n\t\t\t<li
+      class=\"rightOption\"><a href=\"http://www.facebook.com/pages/Xbox-Gamertag/134742809876061\"
+      rel=\"nofollow\" target=\"_blank\">Share Your Gamertag</a></li>\n\n\n\t\t</ul>\n\t\t\t</div>\n\t<div
+      id=\"XGTMain\">\n\t<h2>An error occured...</h2>\r\n\t<div class=\"centerContent\">\r\n\t<p>It
+      seems as if the Xbox.com feeds are down.</p>\r\n\t<p>It's probably just a temporary
+      issue, try again in a while</p>\r\n\t<p>In the mean time, come have a chat with
+      us on the forums and have some tea...</p>\r\n\t\t<img src=\"/resources/images/icons/teatime.png\"
+      alt=\"Why not have some tea? (or coffee, its better)\" title=\"Why not have
+      some tea? (or coffee, its better)\" />\r\n\t\t\r\n\t\t<br /><br /> <h2>If you're
+      bored, add us on Xbox Live before our friends list gets full! <br />Gamertag:
+      XboxGamertagCom</h2>\r\n\t</div>\r\n</div>\n\t<div class=\"XGTFooter\">\n\t\t<div
+      class=\"rightCol\">\n\t\t\t<p> </p>\n\t\t</div>\n\t\t\n\t</div>\n</div>\n<div
+      class=\"XGTFooter\">\n\t<div class=\"leftCol\">\n\t\t<a href=\"/contact/\">Contact
+      Us</a> - <a href=\"/legal/terms/\">Terms of Use</a> - <a href=\"/legal/privacy/\">Privacy
+      Policy</a> - <a href=\"/sitemap/\">Sitemap</a>\n\t\t<br />\n\t\tFollow us on:
+      <a href=\"http://www.facebook.com/pages/Xbox-Gamertag/134742809876061\" target=_blank\"
+      rel=\"nofollow\">Facebook</a> - <a href=\"http://twitter.com/XboxGamerTagCom\"
+      \ target=_blank\" rel=\"nofollow\">Twitter</a> - <a href=\"http://www.youtube.com/user/XboxGamertagCom\"
+      target=_blank\" rel=\"nofollow\">Youtube</a>\n\n</div>\n\t<div class=\"rightCol\">\n\t\t<p>Xboxgamertag.com
+      &#169 2010 - 2012</p>\n\t\t<p>XboxGamertag.com is a member of the Xbox Community
+      Developer Program (XCDP)</p>\n\t\t<p>We are not affiliated with Microsoft or
+      Xbox</p>\n\t</div>\t\n</div>\n<script type=\"text/javascript\">  var _gaq =
+      _gaq || [];  _gaq.push(['_setAccount', 'UA-16948229-1']);  _gaq.push(['_trackPageview']);
+      \ (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript';
+      ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+      : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);  })();</script>\n</body>\n</html>\n"
+    http_version: '1.1'

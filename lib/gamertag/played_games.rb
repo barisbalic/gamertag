@@ -1,29 +1,30 @@
+require 'cgi'
 module Gamertag
   class PlayedGames
-    # Create a new instacne of +PlayedGames+ with a given gamertag. You will 
-    # then be able to iterate over the items returned from xboxgamertag.com 
+    # Create a new instacne of +PlayedGames+ with a given gamertag. You will
+    # then be able to iterate over the items returned from xboxgamertag.com
     # using iterator methods such as +first+, +last+, +each+, +count+, and
-    # +to_hash+. 
+    # +to_hash+.
     #
     # @param gamertag [String] XBOX gamertag to retrieve played games for.
     def initialize(gamertag)
       @played_games = fetch(gamertag)
     end
-    
+
     # Iterator over each of the played games using a block.
-    # 
+    #
     # @param block [block] Each played game for the gamertag will be passed to the block.
     def each(&block)
       @played_games.each(&block)
     end
-    
-    # +first+, +last+, +count+, and +to_hash+ will be sent to the 
+
+    # +first+, +last+, +count+, and +to_hash+ will be sent to the
     # internal class variable holding the played games information.
     def method_missing(method_name, args = nil)
       [:first, :last, :count, :to_hash].each {|method| return @played_games.send(method) if method_name == method }
       @played_games[method_name.to_s]
     end
-    
+
     private
 
     # Fetch played game information for a given XBOX gamertag.
@@ -32,13 +33,13 @@ module Gamertag
     #
     # @return A +Hashie::Mash+ of the "parsed" played game information.
     def fetch(gamertag)
-      uri = URI.parse("http://www.xboxgamertag.com/search/#{gamertag}/")
+      uri = URI.parse("http://www.xboxgamertag.com/search/#{CGI.escape gamertag}/")
       response = Net::HTTP.get_response(uri)
       document = Nokogiri::HTML(response.body)
       parse_rows(document)
     end
-    
-    # Parse the HTML from xboxgamertag.com to retrieve played game 
+
+    # Parse the HTML from xboxgamertag.com to retrieve played game
     # information such as title, earned_achievements, etc.
     #
     # @param document [Nokogiri::HTML] HTML document
@@ -52,7 +53,7 @@ module Gamertag
         naming = cells[1].css("p")
         gamerscore = cells[2].css("div[class='percentage-container']").first.text.strip!.split('/')
         achievements = (cells[2].css("div[class='percentage-container']").last.text).strip!.split('/')
-        
+
         average_gamerscore = cells[3].css('span').text.strip!
         relative_gamerscore = cells[3].css('span').attribute('title').text.include?('above average') ? :above_average : :below_average rescue :undefined
 

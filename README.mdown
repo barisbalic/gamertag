@@ -88,6 +88,7 @@ gamertag.friends.each do |friend|
 end
 gamertag.online_friends.each do |online_friend|
 end
+```
 
 ## Documentation
 

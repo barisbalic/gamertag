@@ -23,6 +23,10 @@ module Gamertag
       yield self
     end
 
+    def options
+      OPTION_KEYS.inject({}){|o,k| o.merge!(k => send(k)) }
+    end
+
     def defaults
       self.endpoint_url = DEFAULT_ENDPOINT_URL
       self.api_version = DEFAULT_API_VERSION

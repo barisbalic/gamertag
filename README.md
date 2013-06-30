@@ -28,6 +28,13 @@ LINK TO RDOC
 
 ### Examples
 
+#### Override the adapter
+
+```ruby
+client = Gamertag::Client.new(:adapter => :em_http)
+client.profile('Major Nelson')
+```
+
 #### Retrieve a user
 
 ```ruby

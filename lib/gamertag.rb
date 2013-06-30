@@ -9,8 +9,8 @@ module Gamertag
     # Alias for Gamertag::Client.new
     #
     # @return [Gamertag::Client]
-    def new
-      Gamertag::Client.new
+    def new(opts={})
+      Gamertag::Client.new(opts)
     end
 
     # Delegate calls to Gamertag::Client instance

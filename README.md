@@ -66,7 +66,7 @@ Gamertag.achievements('Major Nelson', 1414793309)
 
 ## Contributors
 
-As of 2.0, the codebase is completely re-written, however I'd like to thank [David Czarnecki] https://github.com/czarneckid for his contributions, especially for putting up with the original crappy code.
+As of 2.0, the codebase is completely re-written, however I'd like to thank [David Czarnecki](https://github.com/czarneckid) for his contributions, especially for putting up with the original crappy code.
 
 ## Contributing
 

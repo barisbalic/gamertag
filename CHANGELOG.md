@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 2.0.1 
+
+* Forgot to enable the passing of options to the client, currently only the version/adapter really, but possibly others in future.
+
+
 ## 2.0.0
 
 * Completely re-written (inspired by [Octokit.rb](https://github.com/octokit/octokit.rb)), replacing a lot of old crappy code, updating to the Xbox Leaders 2.0 API throughout, dropping the XboxGamertag API and finally employing Faraday so the adapter can be configured/swapped out as the user sees fit.

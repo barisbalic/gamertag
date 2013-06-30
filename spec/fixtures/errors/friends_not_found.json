@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "version": "2.0",
+  "data": {
+    "code": 503,
+    "message": "No friends found, or friend's list is set to private."
+  },
+  "runtime": 2.227
+}

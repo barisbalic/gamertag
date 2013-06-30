@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "version": "2.0",
+  "data": {
+    "code": 302,
+    "message": "The gameid supplied was not valid."
+  },
+  "runtime": 0
+}

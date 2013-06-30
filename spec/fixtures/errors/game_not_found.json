@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "version": "2.0",
+  "data": {
+    "code": 502,
+    "message": "The gamertag supplied has never played this game or does not exist on Xbox Live."
+  },
+  "runtime": 1.791
+}

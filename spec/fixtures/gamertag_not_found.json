@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "version": "2.0",
+  "data": {
+    "code": 501,
+    "message": "The gamertag supplied does not exist on Xbox Live."
+  },
+  "runtime": 0.739
+}

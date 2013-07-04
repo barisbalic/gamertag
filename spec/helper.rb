@@ -1,5 +1,4 @@
 require 'rspec'
-require 'json'
 
 require 'gamertag'
 

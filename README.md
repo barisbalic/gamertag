@@ -1,4 +1,4 @@
-# Gamertag
+# Gamertag Raq [![Build Status](https://travis-ci.org/barisbalic/gamertag.png?branch=master)](https://travis-ci.org/barisbalic/gamertag) [![Dependency Status]
 
 A simple wrapper for the [Xbox Leaders](https://www.xboxleaders.com/) 2.0 API, which allows you to pull back public information about an Xbox Live user with just their Gamertag.  This includes their profile, friends, games played and achievements.
 

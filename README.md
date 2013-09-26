@@ -1,4 +1,4 @@
-# Gamertag [![Build Status](https://travis-ci.org/barisbalic/gamertag.png)](https://travis-ci.org/barisbalic/gamertag) [![Code Climate](https://codeclimate.com/github/barisbalic/gamertag.png)](https://codeclimate.com/github/barisbalic/gamertag)
+# Gamertag [![Build Status](https://travis-ci.org/barisbalic/gamertag.png)](https://travis-ci.org/barisbalic/gamertag) [![Code Climate](https://codeclimate.com/github/barisbalic/gamertag.png)](https://codeclimate.com/github/barisbalic/gamertag) [![Dependency Status](https://gemnasium.com/barisbalic/gamertag.png)](https://gemnasium.com/barisbalic/gamertag)
 
 A simple wrapper for the [Xbox Leaders](https://www.xboxleaders.com/) 2.0 API, which allows you to pull back public information about an Xbox Live user with just their Gamertag.  This includes their profile, friends, games played and achievements.
 

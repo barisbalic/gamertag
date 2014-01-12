@@ -78,7 +78,7 @@ As of 2.0, the codebase is completely re-written, however I'd like to thank [Dav
 
 ## Copyright
 
-Copyright (c) 2011-2013 Baris Balic, David Czarnecki.
+Copyright (c) 2011-2014 Baris Balic, David Czarnecki.
 See [LICENSE][] for details.
 
 [license]: LICENSE.md
